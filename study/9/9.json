@@ -101,6 +101,11 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"@href": "http://dx.doi.org/10.1600/036364410791638306", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S10149", 
 "@rel": "ot:dataDeposit", 
 "@xsi:type": "nex:ResourceMeta"
@@ -122,6 +127,15 @@
 "@xsi:type": "nex:LiteralMeta", 
 "annotation": [
 {
+"@about": "#supporting-files-metadata", 
+"@dateCreated": "2014-03-11T00:41:19.986Z", 
+"@description": "Describes supporting data files for this study", 
+"@id": "supporting-files-metadata", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp"
+}, 
+{
 "@about": "#otu-mapping-hints", 
 "@dateCreated": "2014-03-11T00:41:19.986Z", 
 "@description": "Aids for mapping study OTUs to OTT taxa", 
@@ -131,8 +145,17 @@
 "@wasAssociatedWithAgentId": "opentree-curation-webapp"
 }, 
 {
+"@about": "#otu-mapping-hints", 
+"@dateCreated": "2014-03-11T00:42:44.788Z", 
+"@description": "Aids for mapping study OTUs to OTT taxa", 
+"@id": "otu-mapping-hints", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp"
+}, 
+{
 "@about": "#supporting-files-metadata", 
-"@dateCreated": "2014-03-11T00:41:19.986Z", 
+"@dateCreated": "2014-03-11T00:42:44.788Z", 
 "@description": "Describes supporting data files for this study", 
 "@id": "supporting-files-metadata", 
 "@passedChecks": true, 
@@ -146,11 +169,6 @@
 "@datatype": "xsd:string", 
 "@property": "ot:studyId", 
 "@xsi:type": "nex:LiteralMeta"
-}, 
-{
-"@href": "http://dx.doi.org/10.1600/036364410791638306", 
-"@rel": "ot:studyPublication", 
-"@xsi:type": "nex:ResourceMeta"
 }, 
 {
 "@property": "ot:agents", 
@@ -4374,12 +4392,6 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": "", 
-"@datatype": "xsd:string", 
-"@property": "ot:branchLengthDescription", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "node3", 
 "@datatype": "xsd:string", 
 "@property": "ot:inGroupClade", 
@@ -4401,6 +4413,18 @@
 "$": "", 
 "@datatype": "xsd:string", 
 "@property": "ot:branchLengthTimeUnit", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@datatype": "xsd:string", 
+"@property": "ot:branchLengthDescription", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "blargh", 
+"@datatype": "xsd:string", 
+"@property": "ot:tag", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
@@ -8348,12 +8372,6 @@
 {
 "$": "", 
 "@datatype": "xsd:string", 
-"@property": "ot:branchLengthDescription", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
-"$": "", 
-"@datatype": "xsd:string", 
 "@property": "ot:inGroupClade", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
@@ -8373,6 +8391,12 @@
 "$": "", 
 "@datatype": "xsd:string", 
 "@property": "ot:branchLengthTimeUnit", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "", 
+"@datatype": "xsd:string", 
+"@property": "ot:branchLengthDescription", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
