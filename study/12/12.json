@@ -44,7 +44,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": "2014-03-24T03:31:11.941442", 
+"$": "2014-03-24T03:31:15.126140", 
 "@property": "bogus_timestamp", 
 "@xsi:type": "nex:LiteralMeta"
 }
