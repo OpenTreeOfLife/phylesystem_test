@@ -37,7 +37,7 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 2, 
+"$": 3, 
 "@datatype": "xsd:int", 
 "@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
@@ -149,6 +149,7 @@
 "$": {
 "agent": [
 {
+"@about": "#peyotl-validator", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator", 
 "@name": "api.opentreeoflife.org/validate", 
