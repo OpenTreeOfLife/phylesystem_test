@@ -32,13 +32,13 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 14, 
+"$": 15, 
 "@datatype": "xsd:int", 
 "@property": "zcount", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 7, 
+"$": 5, 
 "@datatype": "xsd:int", 
 "@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
