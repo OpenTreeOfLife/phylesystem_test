@@ -3,6 +3,7 @@
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
 "@id": "study", 
+"@nexml2json": "0.0.0", 
 "@nexmljson": "http://opentree.wikispaces.com/NexSON", 
 "@version": "0.9", 
 "@xmlns": {
@@ -14,37 +15,165 @@
 }, 
 "meta": [
 {
-"$": "Gruenstaeudl M., Urtubey E., Jansen R., Samuel R., Barfuss M., & Stuessy T. 2009. Phylogeny of Barnadesioideae (Asteraceae) inferred from DNA sequence data and morphology. Molecular Phylogenetics and Evolution, 51(3): 572-587.", 
-"@property": "ot:studyPublicationReference", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
-"@href": "http://dx.doi.org/10.1016/j.ympev.2009.01.023", 
-"@property": "ot:studyPublication", 
-"@xsi:type": "nex:ResourceMeta"
-}, 
-{
 "$": "William Wysocki", 
+"@datatype": "xsd:string", 
 "@property": "ot:curatorName", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": "Gruenstaeudl M., Urtubey E., Jansen R., Samuel R., Barfuss M., & Stuessy T. 2009. Phylogeny of Barnadesioideae (Asteraceae) inferred from DNA sequence data and morphology. Molecular Phylogenetics and Evolution, 51(3): 572-587.", 
+"@datatype": "xsd:string", 
+"@property": "ot:studyPublicationReference", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S9970", 
-"@property": "ot:dataDeposit", 
+"@rel": "ot:dataDeposit", 
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
+"$": 2009, 
+"@datatype": "xsd:int", 
+"@property": "ot:studyYear", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": {
+"annotation": []
+}, 
+"@datatype": "xsd:string", 
+"@property": "ot:annotationEvents", 
+"@xsi:type": "nex:LiteralMeta", 
+"annotation": [
+{
+"@about": "#aea2e3b2c8-b48c-11e3-bf1e-5891cf52fe1d", 
+"@dateCreated": "2014-03-26T02:16:27.250291", 
+"@description": "Open Tree NexSON validation", 
+"@id": "aea2e3b2c8-b48c-11e3-bf1e-5891cf52fe1d", 
+"@passedChecks": false, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "INCORRECT_VALUE_TYPE", 
+"@severity": "ERROR", 
+"data": [
+{
+"expected": "boolean", 
+"key": "@root", 
+"type": "unicode"
+}
+], 
+"refersTo": {
+"@idref": "node1001439"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree5885"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree5885"
+}
+}
+]
+}
+]
+}, 
+{
 "$": "99", 
+"@datatype": "xsd:string", 
 "@property": "ot:studyId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 2009, 
-"@property": "ot:studyYear", 
+"$": 1, 
+"@datatype": "xsd:int", 
+"@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1016/j.ympev.2009.01.023", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": {
+"agent": []
+}, 
+"@property": "ot:agents", 
+"@xsi:type": "nex:LiteralMeta", 
+"agent": [
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator", 
+"@name": "api.opentreeoflife.org/validate", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.3a", 
+"invocation": {
+"checksPerformed": [
+"MISSING_MANDATORY_KEY", 
+"MISSING_OPTIONAL_KEY", 
+"UNRECOGNIZED_KEY", 
+"MISSING_LIST_EXPECTED", 
+"DUPLICATING_SINGLETON_KEY", 
+"REFERENCED_ID_NOT_FOUND", 
+"REPEATED_ID", 
+"REPEATED_OTU", 
+"MULTIPLE_ROOT_NODES", 
+"NO_ROOT_NODE", 
+"MULTIPLE_EDGES_FOR_NODES", 
+"CYCLE_DETECTED", 
+"DISCONNECTED_GRAPH_DETECTED", 
+"INCORRECT_ROOT_NODE_LABEL", 
+"TIP_WITHOUT_OTU", 
+"TIP_WITHOUT_OTT_ID", 
+"MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"NON_MONOPHYLETIC_TIPS_MAPPED_TO_OTT_ID", 
+"INVALID_PROPERTY_VALUE", 
+"PROPERTY_VALUE_NOT_USEFUL", 
+"UNRECOGNIZED_PROPERTY_VALUE", 
+"MULTIPLE_TREES", 
+"UNRECOGNIZED_TAG", 
+"CONFLICTING_PROPERTY_VALUES", 
+"NO_TREES", 
+"DEPRECATED_PROPERTY", 
+"UNPARSEABLE_META", 
+"UNREACHABLE_NODE", 
+"INCORRECT_VALUE_TYPE", 
+"MISSING_CRUCIAL_CONTENT"
+], 
+"commandLine": [], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.5+"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
 }
 ], 
 "otus": {
+"@about": "#otus99", 
 "@id": "otus99", 
 "otu": [
 {
@@ -53,17 +182,20 @@
 "@label": "Chuquiraga aurea", 
 "meta": [
 {
-"$": 368818, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253052", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 368818, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga aurea", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -75,17 +207,20 @@
 "@label": "Doniophyton weddellii", 
 "meta": [
 {
-"$": 457372, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253053", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457372, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Doniophyton weddellii", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -97,17 +232,20 @@
 "@label": "Doniophyton anomalum", 
 "meta": [
 {
-"$": 643724, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253054", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 643724, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Doniophyton anomalum", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -119,17 +257,20 @@
 "@label": "Chuquiraga morenonis", 
 "meta": [
 {
-"$": 457385, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253055", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457385, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga morenonis", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -141,17 +282,20 @@
 "@label": "Dasyphyllum popayanense", 
 "meta": [
 {
-"$": 374960, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253056", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 374960, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum popayanense", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -163,17 +307,20 @@
 "@label": "Chuquiraga erinacea", 
 "meta": [
 {
-"$": 13479, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253057", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 13479, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga erinacea", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -185,17 +332,20 @@
 "@label": "Chuquiraga ulicina subsp. acicularis", 
 "meta": [
 {
-"$": 457383, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253058", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457383, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga ulcinia subsp. acicularis", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -207,17 +357,20 @@
 "@label": "Perezia carthamoides", 
 "meta": [
 {
-"$": 1033741, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253059", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1033741, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Perezia carthamoides", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -229,17 +382,20 @@
 "@label": "Huarpea andina", 
 "meta": [
 {
-"$": 224950, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253060", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 224950, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Huarpea andina", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -251,17 +407,20 @@
 "@label": "Schlechtendalia luzulifolia", 
 "meta": [
 {
-"$": 569942, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253061", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 569942, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Schlechtendalia luzulaefolia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -273,17 +432,20 @@
 "@label": "Chuquiraga weberbaueri", 
 "meta": [
 {
-"$": 457380, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253062", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457380, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga weberbaueri", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -295,17 +457,20 @@
 "@label": "Chuquiraga avellanedae", 
 "meta": [
 {
-"$": 1028938, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253063", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1028938, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga avellanedae", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -317,17 +482,20 @@
 "@label": "Mutisia decurrens", 
 "meta": [
 {
-"$": 457391, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253064", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457391, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Mutisia decurrens", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -339,17 +507,20 @@
 "@label": "Chuquiraga ulicina subsp. ulicina", 
 "meta": [
 {
-"$": 457382, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253065", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457382, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga ulcinia subsp. ulcinia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -361,17 +532,20 @@
 "@label": "Chuquiraga ruscifolia", 
 "meta": [
 {
-"$": 864484, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253066", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 864484, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga ruscifolia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -383,17 +557,20 @@
 "@label": "Dasyphyllum brevispinum", 
 "meta": [
 {
-"$": 457378, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253067", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457378, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum brevispinum", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -405,17 +582,20 @@
 "@label": "Dasyphyllum spinescens", 
 "meta": [
 {
-"$": 374954, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl253068", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 374954, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum spinescens", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -427,17 +607,20 @@
 "@label": "Calycera crassifolia", 
 "meta": [
 {
-"$": 1084320, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266476", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1084320, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Calycera crassifolia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -449,17 +632,20 @@
 "@label": "Dasyphyllum tomentosum", 
 "meta": [
 {
-"$": 466302, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266477", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 466302, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum tomentosum", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -471,17 +657,20 @@
 "@label": "Barnadesia odorata", 
 "meta": [
 {
-"$": 503066, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266478", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 503066, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Barnadesia odorata", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -493,17 +682,20 @@
 "@label": "Barnadesia lehmannii var. villosa", 
 "meta": [
 {
-"$": 1084322, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266479", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1084322, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Barnadesia lehmannii var villosa", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -515,17 +707,20 @@
 "@label": "Dasyphyllum brasiliense", 
 "meta": [
 {
-"$": 448619, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266480", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 448619, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum brasiliense", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -537,17 +732,20 @@
 "@label": "Chuquiraga ulicina subsp. acicularis", 
 "meta": [
 {
-"$": 457383, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266481", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457383, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga ulcinia subsp acicularis", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -559,17 +757,20 @@
 "@label": "Barnadesia lehmannii var. lehmannii", 
 "meta": [
 {
-"$": 1084324, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266482", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1084324, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Barnadesia lehmannii var lehmannii", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -581,17 +782,20 @@
 "@label": "Acicarpha tribuloides", 
 "meta": [
 {
-"$": 876344, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266483", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 876344, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Acicarpha tribuloides 1", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -603,17 +807,20 @@
 "@label": "Boopis anthemoides", 
 "meta": [
 {
-"$": 725930, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266484", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 725930, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Boopis anthemoides", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -625,17 +832,20 @@
 "@label": "Chuquiraga oppositifolia", 
 "meta": [
 {
-"$": 864581, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266485", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 864581, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga oppositifolia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -647,17 +857,20 @@
 "@label": "Nastanthus spathulatus", 
 "meta": [
 {
-"$": 507788, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266486", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 507788, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Nastanthus spathulatus", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -669,17 +882,20 @@
 "@label": "Acicarpha tribuloides", 
 "meta": [
 {
-"$": 876344, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266487", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 876344, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Acicarpha tribuloides 2", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -691,17 +907,20 @@
 "@label": "Dasyphyllum diacanthoides", 
 "meta": [
 {
-"$": 3569, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266488", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 3569, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum diacanthoides", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -713,17 +932,20 @@
 "@label": "Proustia cuneifolia", 
 "meta": [
 {
-"$": 1060864, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266489", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1060864, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Proustia cuneifolia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -735,17 +957,20 @@
 "@label": "Duseniella patagonica", 
 "meta": [
 {
-"$": 1044797, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266490", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1044797, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Duseniella patagonia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -757,17 +982,20 @@
 "@label": "Arnaldoa argentea", 
 "meta": [
 {
-"$": 1005371, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266491", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1005371, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Arnaldoa argentea", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -779,17 +1007,20 @@
 "@label": "Leucheria cf. gayana TS 12714", 
 "meta": [
 {
-"$": 457393, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266492", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457393, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Leucheria cf gayana", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -801,17 +1032,20 @@
 "@label": "Chuquiraga jussieui", 
 "meta": [
 {
-"$": 70340, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266493", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 70340, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga jussieui", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -823,17 +1057,20 @@
 "@label": "Nassauvia looseri", 
 "meta": [
 {
-"$": 386864, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266494", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 386864, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Nassauvia looseri", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -845,17 +1082,20 @@
 "@label": "Arnaldoa weberbaueri", 
 "meta": [
 {
-"$": 503054, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266495", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 503054, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Arnaldoa weberbaueri", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -867,17 +1107,20 @@
 "@label": "Barnadesia dombeyana", 
 "meta": [
 {
-"$": 503058, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266496", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 503058, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Barnadesia dombeyana", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -889,17 +1132,20 @@
 "@label": "Dasyphyllum leptacanthum", 
 "meta": [
 {
-"$": 452572, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266497", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 452572, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum leptacanthum", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -911,17 +1157,20 @@
 "@label": "Calycera cf. spinulosa TS 12888", 
 "meta": [
 {
-"$": 1084319, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266498", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1084319, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Calycera cf spinulosa", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -933,17 +1182,20 @@
 "@label": "Fulcaldea laurifolia", 
 "meta": [
 {
-"$": 374940, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266499", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 374940, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Fulcaldea laurifolia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -955,17 +1207,20 @@
 "@label": "Chuquiraga spinosa subsp. rotundifolia", 
 "meta": [
 {
-"$": 74339, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266500", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 74339, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga spinosa subsp rotundifolia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -977,17 +1232,20 @@
 "@label": "Mutisia sinuata", 
 "meta": [
 {
-"$": 1033739, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266501", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 1033739, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Mutisia sinuata", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -999,17 +1257,20 @@
 "@label": "Barnadesia jelskii", 
 "meta": [
 {
-"$": 503062, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266502", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 503062, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Barnadesia jelskii", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -1021,17 +1282,20 @@
 "@label": "Picris pauciflora", 
 "meta": [
 {
-"$": 339817, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266503", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 339817, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Picris pauciflora", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -1043,17 +1307,20 @@
 "@label": "Chuquiraga ulicina subsp. acicularis", 
 "meta": [
 {
-"$": 457383, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266504", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 457383, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Chuquiraga ulcinia subsp ulcinia", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -1065,17 +1332,20 @@
 "@label": "Dasyphyllum excelsum", 
 "meta": [
 {
-"$": 452568, 
-"@property": "ot:ottId", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Tl266505", 
+"@datatype": "xsd:string", 
 "@property": "ot:treebaseOTUId", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": 452568, 
+"@datatype": "xsd:int", 
+"@property": "ot:ottId", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
 "$": "Dasyphyllum excelsum", 
+"@datatype": "xsd:string", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
 }
@@ -1084,449 +1354,538 @@
 ]
 }, 
 "trees": {
+"@about": "#trees99", 
 "@id": "trees99", 
 "@otus": "otus99", 
-"tree": [
-{
+"tree": {
 "@about": "#tree5885", 
 "@id": "tree5885", 
+"@xsi:type": "nex:FloatTree", 
 "edge": [
 {
+"@about": "#edge1001440", 
 "@id": "edge1001440", 
 "@source": "node1001439", 
 "@target": "node1001440"
 }, 
 {
+"@about": "#edge1001441", 
 "@id": "edge1001441", 
 "@source": "node1001440", 
 "@target": "node1001441"
 }, 
 {
+"@about": "#edge1001442", 
 "@id": "edge1001442", 
 "@source": "node1001441", 
 "@target": "node1001442"
 }, 
 {
+"@about": "#edge1001443", 
 "@id": "edge1001443", 
 "@source": "node1001442", 
 "@target": "node1001443"
 }, 
 {
+"@about": "#edge1001444", 
 "@id": "edge1001444", 
 "@source": "node1001443", 
 "@target": "node1001444"
 }, 
 {
+"@about": "#edge1001445", 
 "@id": "edge1001445", 
 "@source": "node1001444", 
 "@target": "node1001445"
 }, 
 {
+"@about": "#edge1001446", 
 "@id": "edge1001446", 
 "@source": "node1001445", 
 "@target": "node1001446"
 }, 
 {
+"@about": "#edge1001447", 
 "@id": "edge1001447", 
 "@source": "node1001446", 
 "@target": "node1001447"
 }, 
 {
+"@about": "#edge1001448", 
 "@id": "edge1001448", 
 "@source": "node1001447", 
 "@target": "node1001448"
 }, 
 {
+"@about": "#edge1001449", 
 "@id": "edge1001449", 
 "@source": "node1001447", 
 "@target": "node1001449"
 }, 
 {
+"@about": "#edge1001450", 
 "@id": "edge1001450", 
 "@source": "node1001446", 
 "@target": "node1001450"
 }, 
 {
+"@about": "#edge1001451", 
 "@id": "edge1001451", 
 "@source": "node1001445", 
 "@target": "node1001451"
 }, 
 {
+"@about": "#edge1001452", 
 "@id": "edge1001452", 
 "@source": "node1001451", 
 "@target": "node1001452"
 }, 
 {
+"@about": "#edge1001453", 
 "@id": "edge1001453", 
 "@source": "node1001451", 
 "@target": "node1001453"
 }, 
 {
+"@about": "#edge1001454", 
 "@id": "edge1001454", 
 "@source": "node1001444", 
 "@target": "node1001454"
 }, 
 {
+"@about": "#edge1001455", 
 "@id": "edge1001455", 
 "@source": "node1001454", 
 "@target": "node1001455"
 }, 
 {
+"@about": "#edge1001456", 
 "@id": "edge1001456", 
 "@source": "node1001455", 
 "@target": "node1001456"
 }, 
 {
+"@about": "#edge1001457", 
 "@id": "edge1001457", 
 "@source": "node1001455", 
 "@target": "node1001457"
 }, 
 {
+"@about": "#edge1001458", 
 "@id": "edge1001458", 
 "@source": "node1001457", 
 "@target": "node1001458"
 }, 
 {
+"@about": "#edge1001459", 
 "@id": "edge1001459", 
 "@source": "node1001458", 
 "@target": "node1001459"
 }, 
 {
+"@about": "#edge1001460", 
 "@id": "edge1001460", 
 "@source": "node1001458", 
 "@target": "node1001460"
 }, 
 {
+"@about": "#edge1001461", 
 "@id": "edge1001461", 
 "@source": "node1001460", 
 "@target": "node1001461"
 }, 
 {
+"@about": "#edge1001462", 
 "@id": "edge1001462", 
 "@source": "node1001460", 
 "@target": "node1001462"
 }, 
 {
+"@about": "#edge1001463", 
 "@id": "edge1001463", 
 "@source": "node1001457", 
 "@target": "node1001463"
 }, 
 {
+"@about": "#edge1001464", 
 "@id": "edge1001464", 
 "@source": "node1001454", 
 "@target": "node1001464"
 }, 
 {
+"@about": "#edge1001465", 
 "@id": "edge1001465", 
 "@source": "node1001443", 
 "@target": "node1001465"
 }, 
 {
+"@about": "#edge1001466", 
 "@id": "edge1001466", 
 "@source": "node1001465", 
 "@target": "node1001466"
 }, 
 {
+"@about": "#edge1001467", 
 "@id": "edge1001467", 
 "@source": "node1001466", 
 "@target": "node1001467"
 }, 
 {
+"@about": "#edge1001468", 
 "@id": "edge1001468", 
 "@source": "node1001467", 
 "@target": "node1001468"
 }, 
 {
+"@about": "#edge1001469", 
 "@id": "edge1001469", 
 "@source": "node1001468", 
 "@target": "node1001469"
 }, 
 {
+"@about": "#edge1001470", 
 "@id": "edge1001470", 
 "@source": "node1001469", 
 "@target": "node1001470"
 }, 
 {
+"@about": "#edge1001471", 
 "@id": "edge1001471", 
 "@source": "node1001469", 
 "@target": "node1001471"
 }, 
 {
+"@about": "#edge1001472", 
 "@id": "edge1001472", 
 "@source": "node1001468", 
 "@target": "node1001472"
 }, 
 {
+"@about": "#edge1001473", 
 "@id": "edge1001473", 
 "@source": "node1001467", 
 "@target": "node1001473"
 }, 
 {
+"@about": "#edge1001474", 
 "@id": "edge1001474", 
 "@source": "node1001466", 
 "@target": "node1001474"
 }, 
 {
+"@about": "#edge1001475", 
 "@id": "edge1001475", 
 "@source": "node1001465", 
 "@target": "node1001475"
 }, 
 {
+"@about": "#edge1001476", 
 "@id": "edge1001476", 
 "@source": "node1001442", 
 "@target": "node1001476"
 }, 
 {
+"@about": "#edge1001477", 
 "@id": "edge1001477", 
 "@source": "node1001476", 
 "@target": "node1001477"
 }, 
 {
+"@about": "#edge1001478", 
 "@id": "edge1001478", 
 "@source": "node1001476", 
 "@target": "node1001478"
 }, 
 {
+"@about": "#edge1001479", 
 "@id": "edge1001479", 
 "@source": "node1001478", 
 "@target": "node1001479"
 }, 
 {
+"@about": "#edge1001480", 
 "@id": "edge1001480", 
 "@source": "node1001479", 
 "@target": "node1001480"
 }, 
 {
+"@about": "#edge1001481", 
 "@id": "edge1001481", 
 "@source": "node1001480", 
 "@target": "node1001481"
 }, 
 {
+"@about": "#edge1001482", 
 "@id": "edge1001482", 
 "@source": "node1001481", 
 "@target": "node1001482"
 }, 
 {
+"@about": "#edge1001483", 
 "@id": "edge1001483", 
 "@source": "node1001481", 
 "@target": "node1001483"
 }, 
 {
+"@about": "#edge1001484", 
 "@id": "edge1001484", 
 "@source": "node1001480", 
 "@target": "node1001484"
 }, 
 {
+"@about": "#edge1001485", 
 "@id": "edge1001485", 
 "@source": "node1001484", 
 "@target": "node1001485"
 }, 
 {
+"@about": "#edge1001486", 
 "@id": "edge1001486", 
 "@source": "node1001485", 
 "@target": "node1001486"
 }, 
 {
+"@about": "#edge1001487", 
 "@id": "edge1001487", 
 "@source": "node1001485", 
 "@target": "node1001487"
 }, 
 {
+"@about": "#edge1001488", 
 "@id": "edge1001488", 
 "@source": "node1001484", 
 "@target": "node1001488"
 }, 
 {
+"@about": "#edge1001489", 
 "@id": "edge1001489", 
 "@source": "node1001479", 
 "@target": "node1001489"
 }, 
 {
+"@about": "#edge1001490", 
 "@id": "edge1001490", 
 "@source": "node1001489", 
 "@target": "node1001490"
 }, 
 {
+"@about": "#edge1001491", 
 "@id": "edge1001491", 
 "@source": "node1001489", 
 "@target": "node1001491"
 }, 
 {
+"@about": "#edge1001492", 
 "@id": "edge1001492", 
 "@source": "node1001491", 
 "@target": "node1001492"
 }, 
 {
+"@about": "#edge1001493", 
 "@id": "edge1001493", 
 "@source": "node1001492", 
 "@target": "node1001493"
 }, 
 {
+"@about": "#edge1001494", 
 "@id": "edge1001494", 
 "@source": "node1001493", 
 "@target": "node1001494"
 }, 
 {
+"@about": "#edge1001495", 
 "@id": "edge1001495", 
 "@source": "node1001493", 
 "@target": "node1001495"
 }, 
 {
+"@about": "#edge1001496", 
 "@id": "edge1001496", 
 "@source": "node1001492", 
 "@target": "node1001496"
 }, 
 {
+"@about": "#edge1001497", 
 "@id": "edge1001497", 
 "@source": "node1001491", 
 "@target": "node1001497"
 }, 
 {
+"@about": "#edge1001498", 
 "@id": "edge1001498", 
 "@source": "node1001497", 
 "@target": "node1001498"
 }, 
 {
+"@about": "#edge1001499", 
 "@id": "edge1001499", 
 "@source": "node1001497", 
 "@target": "node1001499"
 }, 
 {
+"@about": "#edge1001500", 
 "@id": "edge1001500", 
 "@source": "node1001478", 
 "@target": "node1001500"
 }, 
 {
+"@about": "#edge1001501", 
 "@id": "edge1001501", 
 "@source": "node1001500", 
 "@target": "node1001501"
 }, 
 {
+"@about": "#edge1001502", 
 "@id": "edge1001502", 
 "@source": "node1001500", 
 "@target": "node1001502"
 }, 
 {
+"@about": "#edge1001503", 
 "@id": "edge1001503", 
 "@source": "node1001441", 
 "@target": "node1001503"
 }, 
 {
+"@about": "#edge1001504", 
 "@id": "edge1001504", 
 "@source": "node1001440", 
 "@target": "node1001504"
 }, 
 {
+"@about": "#edge1001505", 
 "@id": "edge1001505", 
 "@source": "node1001504", 
 "@target": "node1001505"
 }, 
 {
+"@about": "#edge1001506", 
 "@id": "edge1001506", 
 "@source": "node1001504", 
 "@target": "node1001506"
 }, 
 {
+"@about": "#edge1001507", 
 "@id": "edge1001507", 
 "@source": "node1001506", 
 "@target": "node1001507"
 }, 
 {
+"@about": "#edge1001508", 
 "@id": "edge1001508", 
 "@source": "node1001506", 
 "@target": "node1001508"
 }, 
 {
+"@about": "#edge1001509", 
 "@id": "edge1001509", 
 "@source": "node1001508", 
 "@target": "node1001509"
 }, 
 {
+"@about": "#edge1001510", 
 "@id": "edge1001510", 
 "@source": "node1001509", 
 "@target": "node1001510"
 }, 
 {
+"@about": "#edge1001511", 
 "@id": "edge1001511", 
 "@source": "node1001509", 
 "@target": "node1001511"
 }, 
 {
+"@about": "#edge1001512", 
 "@id": "edge1001512", 
 "@source": "node1001508", 
 "@target": "node1001512"
 }, 
 {
+"@about": "#edge1001513", 
 "@id": "edge1001513", 
 "@source": "node1001512", 
 "@target": "node1001513"
 }, 
 {
+"@about": "#edge1001514", 
 "@id": "edge1001514", 
 "@source": "node1001512", 
 "@target": "node1001514"
 }, 
 {
+"@about": "#edge1001515", 
 "@id": "edge1001515", 
 "@source": "node1001514", 
 "@target": "node1001515"
 }, 
 {
+"@about": "#edge1001516", 
 "@id": "edge1001516", 
 "@source": "node1001514", 
 "@target": "node1001516"
 }, 
 {
+"@about": "#edge1001517", 
 "@id": "edge1001517", 
 "@source": "node1001439", 
 "@target": "node1001517"
 }, 
 {
+"@about": "#edge1001518", 
 "@id": "edge1001518", 
 "@source": "node1001517", 
 "@target": "node1001518"
 }, 
 {
+"@about": "#edge1001519", 
 "@id": "edge1001519", 
 "@source": "node1001518", 
 "@target": "node1001519"
 }, 
 {
+"@about": "#edge1001520", 
 "@id": "edge1001520", 
 "@source": "node1001518", 
 "@target": "node1001520"
 }, 
 {
+"@about": "#edge1001521", 
 "@id": "edge1001521", 
 "@source": "node1001517", 
 "@target": "node1001521"
 }, 
 {
+"@about": "#edge1001522", 
 "@id": "edge1001522", 
 "@source": "node1001521", 
 "@target": "node1001522"
 }, 
 {
+"@about": "#edge1001523", 
 "@id": "edge1001523", 
 "@source": "node1001522", 
 "@target": "node1001523"
 }, 
 {
+"@about": "#edge1001524", 
 "@id": "edge1001524", 
 "@source": "node1001523", 
 "@target": "node1001524"
 }, 
 {
+"@about": "#edge1001525", 
 "@id": "edge1001525", 
 "@source": "node1001523", 
 "@target": "node1001525"
 }, 
 {
+"@about": "#edge1001526", 
 "@id": "edge1001526", 
 "@source": "node1001522", 
 "@target": "node1001526"
 }, 
 {
+"@about": "#edge1001527", 
 "@id": "edge1001527", 
 "@source": "node1001521", 
 "@target": "node1001527"
@@ -1534,43 +1893,54 @@
 ], 
 "meta": [
 {
-"$": "node1001440", 
-"@property": "ot:inGroupClade", 
+"$": "Fig. 2 right", 
+"@datatype": "xsd:string", 
+"@property": "ot:curatedType", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": "Fig. 2 right", 
-"@property": "ot:curatedType", 
+"$": "node1001440", 
+"@datatype": "xsd:string", 
+"@property": "ot:inGroupClade", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ], 
 "node": [
 {
+"@about": "#node1001439", 
 "@id": "node1001439", 
 "@root": "true"
 }, 
 {
+"@about": "#node1001440", 
 "@id": "node1001440"
 }, 
 {
+"@about": "#node1001441", 
 "@id": "node1001441"
 }, 
 {
+"@about": "#node1001442", 
 "@id": "node1001442"
 }, 
 {
+"@about": "#node1001443", 
 "@id": "node1001443"
 }, 
 {
+"@about": "#node1001444", 
 "@id": "node1001444"
 }, 
 {
+"@about": "#node1001445", 
 "@id": "node1001445"
 }, 
 {
+"@about": "#node1001446", 
 "@id": "node1001446"
 }, 
 {
+"@about": "#node1001447", 
 "@id": "node1001447"
 }, 
 {
@@ -1579,7 +1949,7 @@
 "@otu": "otu377619", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1592,7 +1962,7 @@
 "@otu": "otu377615", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1605,7 +1975,7 @@
 "@otu": "otu377623", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1613,6 +1983,7 @@
 ]
 }, 
 {
+"@about": "#node1001451", 
 "@id": "node1001451"
 }, 
 {
@@ -1621,7 +1992,7 @@
 "@otu": "otu377629", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1634,7 +2005,7 @@
 "@otu": "otu377612", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1642,9 +2013,11 @@
 ]
 }, 
 {
+"@about": "#node1001454", 
 "@id": "node1001454"
 }, 
 {
+"@about": "#node1001455", 
 "@id": "node1001455"
 }, 
 {
@@ -1653,7 +2026,7 @@
 "@otu": "otu377587", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1661,9 +2034,11 @@
 ]
 }, 
 {
+"@about": "#node1001457", 
 "@id": "node1001457"
 }, 
 {
+"@about": "#node1001458", 
 "@id": "node1001458"
 }, 
 {
@@ -1672,7 +2047,7 @@
 "@otu": "otu377604", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1680,6 +2055,7 @@
 ]
 }, 
 {
+"@about": "#node1001460", 
 "@id": "node1001460"
 }, 
 {
@@ -1688,7 +2064,7 @@
 "@otu": "otu377601", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1701,7 +2077,7 @@
 "@otu": "otu377621", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1714,7 +2090,7 @@
 "@otu": "otu377599", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1727,7 +2103,7 @@
 "@otu": "otu377598", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1735,18 +2111,23 @@
 ]
 }, 
 {
+"@about": "#node1001465", 
 "@id": "node1001465"
 }, 
 {
+"@about": "#node1001466", 
 "@id": "node1001466"
 }, 
 {
+"@about": "#node1001467", 
 "@id": "node1001467"
 }, 
 {
+"@about": "#node1001468", 
 "@id": "node1001468"
 }, 
 {
+"@about": "#node1001469", 
 "@id": "node1001469"
 }, 
 {
@@ -1755,7 +2136,7 @@
 "@otu": "otu377620", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1768,7 +2149,7 @@
 "@otu": "otu377603", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1781,7 +2162,7 @@
 "@otu": "otu377602", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1794,7 +2175,7 @@
 "@otu": "otu377626", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1807,7 +2188,7 @@
 "@otu": "otu377606", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1820,7 +2201,7 @@
 "@otu": "otu377591", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1828,6 +2209,7 @@
 ]
 }, 
 {
+"@about": "#node1001476", 
 "@id": "node1001476"
 }, 
 {
@@ -1836,7 +2218,7 @@
 "@otu": "otu377614", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1844,15 +2226,19 @@
 ]
 }, 
 {
+"@about": "#node1001478", 
 "@id": "node1001478"
 }, 
 {
+"@about": "#node1001479", 
 "@id": "node1001479"
 }, 
 {
+"@about": "#node1001480", 
 "@id": "node1001480"
 }, 
 {
+"@about": "#node1001481", 
 "@id": "node1001481"
 }, 
 {
@@ -1861,7 +2247,7 @@
 "@otu": "otu377605", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1874,7 +2260,7 @@
 "@otu": "otu377628", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1882,9 +2268,11 @@
 ]
 }, 
 {
+"@about": "#node1001484", 
 "@id": "node1001484"
 }, 
 {
+"@about": "#node1001485", 
 "@id": "node1001485"
 }, 
 {
@@ -1893,7 +2281,7 @@
 "@otu": "otu377588", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1906,7 +2294,7 @@
 "@otu": "otu377594", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1919,7 +2307,7 @@
 "@otu": "otu377597", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1927,6 +2315,7 @@
 ]
 }, 
 {
+"@about": "#node1001489", 
 "@id": "node1001489"
 }, 
 {
@@ -1935,7 +2324,7 @@
 "@otu": "otu377583", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1943,12 +2332,15 @@
 ]
 }, 
 {
+"@about": "#node1001491", 
 "@id": "node1001491"
 }, 
 {
+"@about": "#node1001492", 
 "@id": "node1001492"
 }, 
 {
+"@about": "#node1001493", 
 "@id": "node1001493"
 }, 
 {
@@ -1957,7 +2349,7 @@
 "@otu": "otu377593", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1970,7 +2362,7 @@
 "@otu": "otu377617", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1983,7 +2375,7 @@
 "@otu": "otu377624", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -1991,6 +2383,7 @@
 ]
 }, 
 {
+"@about": "#node1001497", 
 "@id": "node1001497"
 }, 
 {
@@ -1999,7 +2392,7 @@
 "@otu": "otu377609", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2012,7 +2405,7 @@
 "@otu": "otu377586", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2020,6 +2413,7 @@
 ]
 }, 
 {
+"@about": "#node1001500", 
 "@id": "node1001500"
 }, 
 {
@@ -2028,7 +2422,7 @@
 "@otu": "otu377584", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2041,7 +2435,7 @@
 "@otu": "otu377585", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2054,7 +2448,7 @@
 "@otu": "otu377592", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2062,6 +2456,7 @@
 ]
 }, 
 {
+"@about": "#node1001504", 
 "@id": "node1001504"
 }, 
 {
@@ -2070,7 +2465,7 @@
 "@otu": "otu377627", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2078,6 +2473,7 @@
 ]
 }, 
 {
+"@about": "#node1001506", 
 "@id": "node1001506"
 }, 
 {
@@ -2086,7 +2482,7 @@
 "@otu": "otu377613", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2094,9 +2490,11 @@
 ]
 }, 
 {
+"@about": "#node1001508", 
 "@id": "node1001508"
 }, 
 {
+"@about": "#node1001509", 
 "@id": "node1001509"
 }, 
 {
@@ -2105,7 +2503,7 @@
 "@otu": "otu377595", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2118,7 +2516,7 @@
 "@otu": "otu377625", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2126,6 +2524,7 @@
 ]
 }, 
 {
+"@about": "#node1001512", 
 "@id": "node1001512"
 }, 
 {
@@ -2134,7 +2533,7 @@
 "@otu": "otu377616", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2142,6 +2541,7 @@
 ]
 }, 
 {
+"@about": "#node1001514", 
 "@id": "node1001514"
 }, 
 {
@@ -2150,7 +2550,7 @@
 "@otu": "otu377590", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2163,7 +2563,7 @@
 "@otu": "otu377618", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2171,9 +2571,11 @@
 ]
 }, 
 {
+"@about": "#node1001517", 
 "@id": "node1001517"
 }, 
 {
+"@about": "#node1001518", 
 "@id": "node1001518"
 }, 
 {
@@ -2182,7 +2584,7 @@
 "@otu": "otu377607", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2195,7 +2597,7 @@
 "@otu": "otu377611", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2203,12 +2605,15 @@
 ]
 }, 
 {
+"@about": "#node1001521", 
 "@id": "node1001521"
 }, 
 {
+"@about": "#node1001522", 
 "@id": "node1001522"
 }, 
 {
+"@about": "#node1001523", 
 "@id": "node1001523"
 }, 
 {
@@ -2217,7 +2622,7 @@
 "@otu": "otu377622", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2230,7 +2635,7 @@
 "@otu": "otu377600", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2243,7 +2648,7 @@
 "@otu": "otu377610", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2256,7 +2661,7 @@
 "@otu": "otu377608", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2265,7 +2670,6 @@
 }
 ]
 }
-]
 }
 }
 }
