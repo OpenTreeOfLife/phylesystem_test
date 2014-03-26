@@ -27,11 +27,6 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"@href": "http://dx.doi.org/10.1016/j.ympev.2009.01.023", 
-"@rel": "ot:studyPublication", 
-"@xsi:type": "nex:ResourceMeta"
-}, 
-{
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S9970", 
 "@rel": "ot:dataDeposit", 
 "@xsi:type": "nex:ResourceMeta"
@@ -43,7 +38,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 5, 
+"$": 6, 
 "@datatype": "xsd:int", 
 "@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
@@ -83,7 +78,8 @@
 "data": [
 "acount", 
 "ot:agents", 
-"ot:annotationEvents"
+"ot:annotationEvents", 
+"zcount"
 ], 
 "refersTo": {
 "@idref": "study"
@@ -150,6 +146,11 @@
 "@datatype": "xsd:string", 
 "@property": "ot:studyId", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1016/j.ympev.2009.01.023", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
 }, 
 {
 "$": {
