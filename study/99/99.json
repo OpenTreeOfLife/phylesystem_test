@@ -38,7 +38,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 5, 
+"$": 7, 
 "@datatype": "xsd:int", 
 "@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
