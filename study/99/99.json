@@ -15,21 +15,32 @@
 }, 
 "meta": [
 {
-"$": "William Wysocki", 
-"@datatype": "xsd:string", 
-"@property": "ot:curatorName", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
 "$": "Gruenstaeudl M., Urtubey E., Jansen R., Samuel R., Barfuss M., & Stuessy T. 2009. Phylogeny of Barnadesioideae (Asteraceae) inferred from DNA sequence data and morphology. Molecular Phylogenetics and Evolution, 51(3): 572-587.", 
 "@datatype": "xsd:string", 
 "@property": "ot:studyPublicationReference", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
+"$": "William Wysocki", 
+"@datatype": "xsd:string", 
+"@property": "ot:curatorName", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"@href": "http://dx.doi.org/10.1016/j.ympev.2009.01.023", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S9970", 
 "@rel": "ot:dataDeposit", 
 "@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": 2, 
+"@datatype": "xsd:int", 
+"@property": "acount", 
+"@xsi:type": "nex:LiteralMeta"
 }, 
 {
 "$": 2009, 
@@ -39,7 +50,42 @@
 }, 
 {
 "$": {
-"annotation": []
+"annotation": [
+{
+"@description": "Open Tree NexSON validation", 
+"@passedChecks": false, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "INCORRECT_VALUE_TYPE", 
+"@severity": "ERROR", 
+"data": [
+{
+"expected": "array", 
+"key": "tree", 
+"type": "dict"
+}
+], 
+"refersTo": {
+"@idref": "trees99"
+}
+}, 
+{
+"@code": "UNRECOGNIZED_KEY", 
+"@severity": "WARNING", 
+"data": [
+"acount", 
+"ot:agents", 
+"ot:annotationEvents"
+], 
+"refersTo": {
+"@idref": "study"
+}
+}
+]
+}
+]
 }, 
 "@datatype": "xsd:string", 
 "@property": "ot:annotationEvents", 
@@ -100,24 +146,68 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 1, 
-"@datatype": "xsd:int", 
-"@property": "acount", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
-"@href": "http://dx.doi.org/10.1016/j.ympev.2009.01.023", 
-"@rel": "ot:studyPublication", 
-"@xsi:type": "nex:ResourceMeta"
-}, 
-{
 "$": {
-"agent": []
+"agent": [
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator", 
+"@name": "api.opentreeoflife.org/validate", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.3a", 
+"invocation": {
+"checksPerformed": [
+"MISSING_MANDATORY_KEY", 
+"MISSING_OPTIONAL_KEY", 
+"UNRECOGNIZED_KEY", 
+"MISSING_LIST_EXPECTED", 
+"DUPLICATING_SINGLETON_KEY", 
+"REFERENCED_ID_NOT_FOUND", 
+"REPEATED_ID", 
+"REPEATED_OTU", 
+"MULTIPLE_ROOT_NODES", 
+"NO_ROOT_NODE", 
+"MULTIPLE_EDGES_FOR_NODES", 
+"CYCLE_DETECTED", 
+"DISCONNECTED_GRAPH_DETECTED", 
+"INCORRECT_ROOT_NODE_LABEL", 
+"TIP_WITHOUT_OTU", 
+"TIP_WITHOUT_OTT_ID", 
+"MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"NON_MONOPHYLETIC_TIPS_MAPPED_TO_OTT_ID", 
+"INVALID_PROPERTY_VALUE", 
+"PROPERTY_VALUE_NOT_USEFUL", 
+"UNRECOGNIZED_PROPERTY_VALUE", 
+"MULTIPLE_TREES", 
+"UNRECOGNIZED_TAG", 
+"CONFLICTING_PROPERTY_VALUES", 
+"NO_TREES", 
+"DEPRECATED_PROPERTY", 
+"UNPARSEABLE_META", 
+"UNREACHABLE_NODE", 
+"INCORRECT_VALUE_TYPE", 
+"MISSING_CRUCIAL_CONTENT"
+], 
+"commandLine": [], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.5+"
 }, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+"@datatype": "xsd:string", 
 "@property": "ot:agents", 
 "@xsi:type": "nex:LiteralMeta", 
 "agent": [
 {
+"@about": "#peyotl-validator", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator", 
 "@name": "api.opentreeoflife.org/validate", 
