@@ -2768,7 +2768,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 3, 
+"$": 4, 
 "@datatype": "xsd:int", 
 "@property": "ot:testCount", 
 "@xsi:type": "nex:LiteralMeta"
