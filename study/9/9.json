@@ -132,10 +132,7 @@
 "$": {
 "annotation": [
 {
-"@about": "#aea45ea7b6-b48c-11e3-96ca-5891cf52fe1d", 
-"@dateCreated": "2014-03-26T02:16:29.733823", 
 "@description": "Open Tree NexSON validation", 
-"@id": "aea45ea7b6-b48c-11e3-96ca-5891cf52fe1d", 
 "@passedChecks": false, 
 "@preserve": false, 
 "@wasAssociatedWithAgentId": "peyotl-validator", 
@@ -2771,7 +2768,7 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 1, 
+"$": 2, 
 "@datatype": "xsd:int", 
 "@property": "ot:testCount", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2780,6 +2777,7 @@
 "$": {
 "agent": [
 {
+"@about": "#peyotl-validator", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator", 
 "@name": "api.opentreeoflife.org/validate", 
