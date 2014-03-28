@@ -3,7 +3,7 @@
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
 "@id": "study", 
-"@nexmljson": "http://opentree.wikispaces.com/NexSON", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
 "@version": "0.9", 
 "@xmlns": {
 "$": "http://www.nexml.org/2009", 
@@ -20,7 +20,7 @@
 }, 
 {
 "@href": "http://dx.doi.org/10.1600/036364410791638306", 
-"@property": "ot:studyPublication", 
+"@rel": "ot:studyPublication", 
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
@@ -30,7 +30,7 @@
 }, 
 {
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S10149", 
-"@property": "ot:dataDeposit", 
+"@rel": "ot:dataDeposit", 
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
@@ -46,6 +46,11 @@
 {
 "$": 124433, 
 "@property": "ot:focalClade", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanulaceae", 
+"@property": "ot:focalCladeOTTTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
@@ -71,6 +76,11 @@
 "$": "Helwingia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Helwingia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -87,6 +97,11 @@
 {
 "$": "Phyllonoma", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Phyllonoma", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -105,6 +120,11 @@
 "$": "Ilex", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Ilex", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -121,6 +141,11 @@
 {
 "$": "Cardiopteris", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cardiopteris", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -139,6 +164,11 @@
 "$": "Irvingbaileya", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Irvingbaileya", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -155,6 +185,11 @@
 {
 "$": "Aralidium", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Aralidium", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -173,6 +208,11 @@
 "$": "Torricellia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Torricellia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -189,6 +229,11 @@
 {
 "$": "Pittosporum", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pittosporum", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -207,6 +252,11 @@
 "$": "Apium", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Apium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -223,6 +273,11 @@
 {
 "$": "Azorella", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Azorella", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -241,6 +296,11 @@
 "$": "Mackinlaya", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Mackinlaya", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -257,6 +317,11 @@
 {
 "$": "Myodocarpus", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Myodocarpus", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -275,6 +340,11 @@
 "$": "Panax", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Panax", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -291,6 +361,11 @@
 {
 "$": "Hydrocotyle", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Hydrocotyle", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -309,6 +384,11 @@
 "$": "Griselinia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Griselinia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -325,6 +405,11 @@
 {
 "$": "Pennantia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pennantia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -343,6 +428,11 @@
 "$": "Patrinia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Patrinia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -359,6 +449,11 @@
 {
 "$": "Valeriana", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Valeriana", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -377,6 +472,11 @@
 "$": "Triplostegia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Triplostegia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -393,6 +493,11 @@
 {
 "$": "Dipsacus", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dipsacus", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -411,6 +516,11 @@
 "$": "Morina", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Morina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -427,6 +537,11 @@
 {
 "$": "Dipelta", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dipelta", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -445,6 +560,11 @@
 "$": "Lonicera", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Lonicera", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -461,6 +581,11 @@
 {
 "$": "Diervilla", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Diervilla", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -479,6 +604,11 @@
 "$": "Viburnum", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Viburnum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -495,6 +625,11 @@
 {
 "$": "Adoxa", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Adoxa", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -513,6 +648,11 @@
 "$": "Quintinia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Quintinia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -529,6 +669,11 @@
 {
 "$": "Paracryphia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Paracryphia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -547,6 +692,11 @@
 "$": "Desfontainia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Desfontainia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -563,6 +713,11 @@
 {
 "$": "Columellia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Columellia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -581,6 +736,11 @@
 "$": "Brunia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Brunia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -597,6 +757,11 @@
 {
 "$": "Berzelia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Berzelia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -615,6 +780,11 @@
 "$": "Polyosma", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Polyosma", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -631,6 +801,11 @@
 {
 "$": "Eremosyne", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Eremosyne", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -649,6 +824,11 @@
 "$": "Escallonia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Escallonia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -665,6 +845,11 @@
 {
 "$": "Tribeles", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tribeles", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -683,6 +868,11 @@
 "$": "Pentaphragma", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pentaphragma", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -699,6 +889,11 @@
 {
 "$": "Argophyllum", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Argophyllum", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -717,6 +912,11 @@
 "$": "Phelline", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Phelline", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -733,6 +933,11 @@
 {
 "$": "Alseuosmia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Alseuosmia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -751,6 +956,11 @@
 "$": "Stylidium", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Stylidium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -767,6 +977,11 @@
 {
 "$": "Donatia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Donatia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -785,6 +1000,11 @@
 "$": "Menyanthes", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Menyanthes", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -801,6 +1021,11 @@
 {
 "$": "Boopis", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Boopis", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -819,6 +1044,11 @@
 "$": "Helianthus", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Helianthus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -835,6 +1065,11 @@
 {
 "$": "Scaevola", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Scaevola", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -853,6 +1088,11 @@
 "$": "Campanula", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -869,6 +1109,11 @@
 {
 "$": "Lobelia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Lobelia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -887,6 +1132,11 @@
 "$": "Roussea", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Roussea", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -903,6 +1153,11 @@
 {
 "$": "Carpodetus", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Carpodetus", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -921,6 +1176,11 @@
 "$": "Hedera", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Hedera", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -937,6 +1197,11 @@
 {
 "$": "Aralia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Aralia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -955,6 +1220,11 @@
 "$": "Schefflera", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Schefflera", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -971,6 +1241,11 @@
 {
 "$": "Tetrapanax", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tetrapanax", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -989,6 +1264,11 @@
 "$": "Polyscias", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Polyscias", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1005,6 +1285,11 @@
 {
 "$": "Tetraplasandra", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tetraplasandra", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1023,6 +1308,11 @@
 "$": "Pseudopanax", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pseudopanax", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1039,6 +1329,11 @@
 {
 "$": "Cussonia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cussonia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1057,6 +1352,11 @@
 "$": "Coriandrum", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Coriandrum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1073,6 +1373,11 @@
 {
 "$": "Angelica", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Angelica", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1091,6 +1396,11 @@
 "$": "Daucus", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Daucus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1107,6 +1417,11 @@
 {
 "$": "Heteromorpha", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Heteromorpha", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1125,6 +1440,11 @@
 "$": "Arctopus", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Arctopus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1141,6 +1461,11 @@
 {
 "$": "Sanicula", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Sanicula", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1159,6 +1484,11 @@
 "$": "Platysace", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Platysace", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1175,6 +1505,11 @@
 {
 "$": "Delarbrea", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Delarbrea", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1193,6 +1528,11 @@
 "$": "Sollya", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Billardiera", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1209,6 +1549,11 @@
 {
 "$": "Melanophylla", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Melanophylla", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1227,6 +1572,11 @@
 "$": "Scabiosa", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Scabiosa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1243,6 +1593,11 @@
 {
 "$": "Pterocephalodes", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pterocephalodes", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1261,6 +1616,11 @@
 "$": "Centranthus", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Centranthus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1277,6 +1637,11 @@
 {
 "$": "Valerianella", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Valerianella", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1295,6 +1660,11 @@
 "$": "Fedia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fedia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1311,6 +1681,11 @@
 {
 "$": "Nardostachys", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nardostachys", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1329,6 +1704,11 @@
 "$": "Acanthocalyx", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Acanthocalyx", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1345,6 +1725,11 @@
 {
 "$": "Cryptothladia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cryptothladia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1363,6 +1748,11 @@
 "$": "Zabelia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Zabelia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1379,6 +1769,11 @@
 {
 "$": "Kolkwitzia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Kolkwitzia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1397,6 +1792,11 @@
 "$": "Abelia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Abelia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1413,6 +1813,11 @@
 {
 "$": "Linnaea", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Linnaea", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1431,6 +1836,11 @@
 "$": "Heptacodium", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Heptacodium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1447,6 +1857,11 @@
 {
 "$": "Leycesteria", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Leycesteria", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1465,6 +1880,11 @@
 "$": "Triosteum", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Triosteum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1481,6 +1901,11 @@
 {
 "$": "Symphoricarpos", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Symphoricarpos", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1499,6 +1924,11 @@
 "$": "Weigela", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Weigela", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1515,6 +1945,11 @@
 {
 "$": "Sinadoxa", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Sinadoxa", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1533,6 +1968,11 @@
 "$": "Tetradoxa", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tetradoxa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1549,6 +1989,11 @@
 {
 "$": "Sambucus", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Sambucus", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1567,6 +2012,11 @@
 "$": "Sphenostemon", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Sphenostemon", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1583,6 +2033,11 @@
 {
 "$": "Forgesia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Forgesia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1601,6 +2056,11 @@
 "$": "Valdivia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Valdivia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1617,6 +2077,11 @@
 {
 "$": "Anopterus", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Anopterus", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1635,6 +2100,11 @@
 "$": "Corokia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Corokia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1651,6 +2121,11 @@
 {
 "$": "Wittsteinia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Wittsteinia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1669,6 +2144,11 @@
 "$": "Crispiloba", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Crispiloba", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1685,6 +2165,11 @@
 {
 "$": "Platyspermation", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Platyspermation", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1703,6 +2188,11 @@
 "$": "Barnadesia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Barnadesia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1719,6 +2209,11 @@
 {
 "$": "Cichorium", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cichorium", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1737,6 +2232,11 @@
 "$": "Lactuca", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Lactuca", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1753,6 +2253,11 @@
 {
 "$": "Tragopogon", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tragopogon", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1771,6 +2276,11 @@
 "$": "Guizotia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Guizotia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1787,6 +2297,11 @@
 {
 "$": "Tagetes", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Tagetes", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1805,6 +2320,11 @@
 "$": "Echinops", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Echinops", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1821,6 +2341,11 @@
 {
 "$": "Gerbera", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gerbera", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1839,6 +2364,11 @@
 "$": "Moschopsis", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Moschopsis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1855,6 +2385,11 @@
 {
 "$": "Acicarpha", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Acicarpha", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1873,6 +2408,11 @@
 "$": "Dampiera", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dampiera", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1889,6 +2429,11 @@
 {
 "$": "Goodenia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Goodenia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1907,6 +2452,11 @@
 "$": "Fauria", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Fauria", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1923,6 +2473,11 @@
 {
 "$": "Villarsia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Villarsia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1941,6 +2496,11 @@
 "$": "Nymphoides", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nymphoides", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1957,6 +2517,11 @@
 {
 "$": "Forstera", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Forstera", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1975,6 +2540,11 @@
 "$": "Trachelium", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Trachelium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1991,6 +2561,11 @@
 {
 "$": "Cyphia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cyphia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2009,6 +2584,11 @@
 "$": "Pseudonemacladus", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Pseudonemacladus", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -2025,6 +2605,11 @@
 {
 "$": "Dialypetalum", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Dialypetalum", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2043,6 +2628,11 @@
 "$": "Abrophyllum", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Abrophyllum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -2059,6 +2649,11 @@
 {
 "$": "Cuttsia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Cuttsia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2077,6 +2672,11 @@
 "$": "Gonocaryum", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gonocaryum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -2093,6 +2693,11 @@
 {
 "$": "Citronella", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Citronella", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2111,6 +2716,11 @@
 "$": "Gomphandra", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Gomphandra", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -2127,6 +2737,11 @@
 {
 "$": "Grisollea", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Grisollea", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2145,6 +2760,11 @@
 "$": "Atropa", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Atropa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -2161,6 +2781,11 @@
 {
 "$": "Nicotiana", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Nicotiana", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2179,6 +2804,11 @@
 "$": "Coffea", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Coffea", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -2196,6 +2826,11 @@
 "$": "Jasminum", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Jasminum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -2212,6 +2847,11 @@
 {
 "$": "Spinacia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Spinacia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2732,7 +3372,7 @@
 "node": [
 {
 "@id": "node740442", 
-"@root": "true"
+"@root": true
 }, 
 {
 "@id": "node740443"
@@ -2749,7 +3389,7 @@
 "@otu": "otu293712", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2762,7 +3402,7 @@
 "@otu": "otu293713", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2775,7 +3415,7 @@
 "@otu": "otu293714", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2791,7 +3431,7 @@
 "@otu": "otu293715", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2804,7 +3444,7 @@
 "@otu": "otu293716", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2838,7 +3478,7 @@
 "@otu": "otu293717", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2851,7 +3491,7 @@
 "@otu": "otu293718", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2870,7 +3510,7 @@
 "@otu": "otu293719", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2895,7 +3535,7 @@
 "@otu": "otu293720", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2908,7 +3548,7 @@
 "@otu": "otu293721", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2921,7 +3561,7 @@
 "@otu": "otu293722", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2934,7 +3574,7 @@
 "@otu": "otu293723", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2950,7 +3590,7 @@
 "@otu": "otu293724", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2963,7 +3603,7 @@
 "@otu": "otu293725", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2976,7 +3616,7 @@
 "@otu": "otu293726", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2989,7 +3629,7 @@
 "@otu": "otu293727", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3026,7 +3666,7 @@
 "@otu": "otu293728", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3039,7 +3679,7 @@
 "@otu": "otu293729", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3055,7 +3695,7 @@
 "@otu": "otu293730", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3068,7 +3708,7 @@
 "@otu": "otu293731", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3081,7 +3721,7 @@
 "@otu": "otu293732", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3094,7 +3734,7 @@
 "@otu": "otu293733", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3107,7 +3747,7 @@
 "@otu": "otu293734", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3120,7 +3760,7 @@
 "@otu": "otu293735", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3136,7 +3776,7 @@
 "@otu": "otu293736", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3149,7 +3789,7 @@
 "@otu": "otu293737", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3165,7 +3805,7 @@
 "@otu": "otu293738", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3178,7 +3818,7 @@
 "@otu": "otu293739", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3197,7 +3837,7 @@
 "@otu": "otu293740", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3210,7 +3850,7 @@
 "@otu": "otu293741", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3226,7 +3866,7 @@
 "@otu": "otu293742", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3239,7 +3879,7 @@
 "@otu": "otu293743", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3255,7 +3895,7 @@
 "@otu": "otu293744", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3271,7 +3911,7 @@
 "@otu": "otu293745", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3287,7 +3927,7 @@
 "@otu": "otu293746", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3300,7 +3940,7 @@
 "@otu": "otu293747", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3319,7 +3959,7 @@
 "@otu": "otu293748", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3344,7 +3984,7 @@
 "@otu": "otu293749", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3357,7 +3997,7 @@
 "@otu": "otu293750", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3370,7 +4010,7 @@
 "@otu": "otu293751", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3386,7 +4026,7 @@
 "@otu": "otu293752", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3399,7 +4039,7 @@
 "@otu": "otu293753", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3415,7 +4055,7 @@
 "@otu": "otu293754", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3434,7 +4074,7 @@
 "@otu": "otu293755", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3447,7 +4087,7 @@
 "@otu": "otu293756", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3460,7 +4100,7 @@
 "@otu": "otu293757", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3479,7 +4119,7 @@
 "@otu": "otu293758", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3492,7 +4132,7 @@
 "@otu": "otu293759", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3508,7 +4148,7 @@
 "@otu": "otu293760", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3521,7 +4161,7 @@
 "@otu": "otu293761", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4805,7 +5445,7 @@
 "node": [
 {
 "@id": "node740541", 
-"@root": "true"
+"@root": true
 }, 
 {
 "@id": "node740542"
@@ -4849,7 +5489,7 @@
 "@otu": "otu293762", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4868,7 +5508,7 @@
 "@otu": "otu293724", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4881,7 +5521,7 @@
 "@otu": "otu293763", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4903,7 +5543,7 @@
 "@otu": "otu293764", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4916,7 +5556,7 @@
 "@otu": "otu293765", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4929,7 +5569,7 @@
 "@otu": "otu293766", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4948,7 +5588,7 @@
 "@otu": "otu293767", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4961,7 +5601,7 @@
 "@otu": "otu293768", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4974,7 +5614,7 @@
 "@otu": "otu293769", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -4987,7 +5627,7 @@
 "@otu": "otu293725", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5024,7 +5664,7 @@
 "@otu": "otu293770", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5037,7 +5677,7 @@
 "@otu": "otu293771", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5050,7 +5690,7 @@
 "@otu": "otu293720", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5063,7 +5703,7 @@
 "@otu": "otu293772", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5076,7 +5716,7 @@
 "@otu": "otu293773", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5092,7 +5732,7 @@
 "@otu": "otu293774", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5105,7 +5745,7 @@
 "@otu": "otu293775", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5118,7 +5758,7 @@
 "@otu": "otu293721", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5134,7 +5774,7 @@
 "@otu": "otu293722", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5147,7 +5787,7 @@
 "@otu": "otu293776", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5163,7 +5803,7 @@
 "@otu": "otu293723", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5176,7 +5816,7 @@
 "@otu": "otu293777", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5192,7 +5832,7 @@
 "@otu": "otu293719", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5205,7 +5845,7 @@
 "@otu": "otu293778", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5218,7 +5858,7 @@
 "@otu": "otu293726", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5237,7 +5877,7 @@
 "@otu": "otu293779", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5250,7 +5890,7 @@
 "@otu": "otu293718", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5263,7 +5903,7 @@
 "@otu": "otu293717", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5276,7 +5916,7 @@
 "@otu": "otu293727", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5316,7 +5956,7 @@
 "@otu": "otu293780", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5332,7 +5972,7 @@
 "@otu": "otu293731", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5345,7 +5985,7 @@
 "@otu": "otu293781", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5358,7 +5998,7 @@
 "@otu": "otu293730", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5383,7 +6023,7 @@
 "@otu": "otu293782", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5396,7 +6036,7 @@
 "@otu": "otu293729", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5412,7 +6052,7 @@
 "@otu": "otu293783", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5425,7 +6065,7 @@
 "@otu": "otu293784", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5438,7 +6078,7 @@
 "@otu": "otu293785", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5451,7 +6091,7 @@
 "@otu": "otu293728", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5473,7 +6113,7 @@
 "@otu": "otu293732", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5486,7 +6126,7 @@
 "@otu": "otu293786", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5499,7 +6139,7 @@
 "@otu": "otu293787", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5512,7 +6152,7 @@
 "@otu": "otu293788", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5534,7 +6174,7 @@
 "@otu": "otu293789", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5547,7 +6187,7 @@
 "@otu": "otu293733", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5560,7 +6200,7 @@
 "@otu": "otu293790", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5573,7 +6213,7 @@
 "@otu": "otu293791", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5589,7 +6229,7 @@
 "@otu": "otu293792", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5608,7 +6248,7 @@
 "@otu": "otu293793", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5624,7 +6264,7 @@
 "@otu": "otu293794", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5637,7 +6277,7 @@
 "@otu": "otu293795", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5650,7 +6290,7 @@
 "@otu": "otu293734", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5666,7 +6306,7 @@
 "@otu": "otu293735", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5679,7 +6319,7 @@
 "@otu": "otu293796", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5701,7 +6341,7 @@
 "@otu": "otu293797", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5717,7 +6357,7 @@
 "@otu": "otu293798", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5730,7 +6370,7 @@
 "@otu": "otu293737", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5743,7 +6383,7 @@
 "@otu": "otu293799", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5756,7 +6396,7 @@
 "@otu": "otu293736", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5775,7 +6415,7 @@
 "@otu": "otu293800", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5788,7 +6428,7 @@
 "@otu": "otu293739", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5801,7 +6441,7 @@
 "@otu": "otu293738", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5820,7 +6460,7 @@
 "@otu": "otu293741", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5833,7 +6473,7 @@
 "@otu": "otu293740", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5849,7 +6489,7 @@
 "@otu": "otu293742", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5862,7 +6502,7 @@
 "@otu": "otu293743", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5890,7 +6530,7 @@
 "@otu": "otu293746", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5906,7 +6546,7 @@
 "@otu": "otu293801", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5919,7 +6559,7 @@
 "@otu": "otu293802", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5932,7 +6572,7 @@
 "@otu": "otu293745", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5945,7 +6585,7 @@
 "@otu": "otu293803", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5958,7 +6598,7 @@
 "@otu": "otu293747", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -5971,7 +6611,7 @@
 "@otu": "otu293744", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6002,7 +6642,7 @@
 "@otu": "otu293804", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6015,7 +6655,7 @@
 "@otu": "otu293749", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6028,7 +6668,7 @@
 "@otu": "otu293750", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6050,7 +6690,7 @@
 "@otu": "otu293751", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6063,7 +6703,7 @@
 "@otu": "otu293805", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6076,7 +6716,7 @@
 "@otu": "otu293806", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6089,7 +6729,7 @@
 "@otu": "otu293807", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6117,7 +6757,7 @@
 "@otu": "otu293808", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6142,7 +6782,7 @@
 "@otu": "otu293809", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6155,7 +6795,7 @@
 "@otu": "otu293810", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6168,7 +6808,7 @@
 "@otu": "otu293811", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6187,7 +6827,7 @@
 "@otu": "otu293812", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6200,7 +6840,7 @@
 "@otu": "otu293756", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6213,7 +6853,7 @@
 "@otu": "otu293813", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6229,7 +6869,7 @@
 "@otu": "otu293814", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6242,7 +6882,7 @@
 "@otu": "otu293815", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6261,7 +6901,7 @@
 "@otu": "otu293816", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6274,7 +6914,7 @@
 "@otu": "otu293817", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6287,7 +6927,7 @@
 "@otu": "otu293755", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6303,7 +6943,7 @@
 "@otu": "otu293818", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6319,7 +6959,7 @@
 "@otu": "otu293819", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6332,7 +6972,7 @@
 "@otu": "otu293757", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6351,7 +6991,7 @@
 "@otu": "otu293754", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6364,7 +7004,7 @@
 "@otu": "otu293820", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6380,7 +7020,7 @@
 "@otu": "otu293821", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6393,7 +7033,7 @@
 "@otu": "otu293822", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6412,7 +7052,7 @@
 "@otu": "otu293752", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6425,7 +7065,7 @@
 "@otu": "otu293823", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6438,7 +7078,7 @@
 "@otu": "otu293753", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6451,7 +7091,7 @@
 "@otu": "otu293748", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6476,7 +7116,7 @@
 "@otu": "otu293824", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6489,7 +7129,7 @@
 "@otu": "otu293758", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6502,7 +7142,7 @@
 "@otu": "otu293825", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6518,7 +7158,7 @@
 "@otu": "otu293826", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6534,7 +7174,7 @@
 "@otu": "otu293759", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6547,7 +7187,7 @@
 "@otu": "otu293827", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6566,7 +7206,7 @@
 "@otu": "otu293761", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6582,7 +7222,7 @@
 "@otu": "otu293828", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6595,7 +7235,7 @@
 "@otu": "otu293829", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6608,7 +7248,7 @@
 "@otu": "otu293760", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6633,7 +7273,7 @@
 "@otu": "otu293715", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6646,7 +7286,7 @@
 "@otu": "otu293830", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6659,7 +7299,7 @@
 "@otu": "otu293831", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6678,7 +7318,7 @@
 "@otu": "otu293716", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6691,7 +7331,7 @@
 "@otu": "otu293832", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6704,7 +7344,7 @@
 "@otu": "otu293833", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6720,7 +7360,7 @@
 "@otu": "otu293714", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6736,7 +7376,7 @@
 "@otu": "otu293712", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6749,7 +7389,7 @@
 "@otu": "otu293713", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6768,7 +7408,7 @@
 "@otu": "otu293834", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6781,7 +7421,7 @@
 "@otu": "otu293835", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6794,7 +7434,7 @@
 "@otu": "otu293836", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6807,7 +7447,7 @@
 "@otu": "otu293837", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -6820,7 +7460,7 @@
 "@otu": "otu293838", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"

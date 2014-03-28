@@ -3,7 +3,7 @@
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
 "@id": "study", 
-"@nexmljson": "http://opentree.wikispaces.com/NexSON", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
 "@version": "0.9", 
 "@xmlns": {
 "$": "http://www.nexml.org/2009", 
@@ -20,7 +20,7 @@
 }, 
 {
 "@href": "http://dx.doi.org/10.1600/036364406779695924", 
-"@property": "ot:studyPublication", 
+"@rel": "ot:studyPublication", 
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
@@ -30,7 +30,7 @@
 }, 
 {
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S1581", 
-"@property": "ot:dataDeposit", 
+"@rel": "ot:dataDeposit", 
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
@@ -44,18 +44,13 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 124433, 
+"$": 1591560, 
 "@property": "ot:focalClade", 
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": "nrDNA", 
-"@property": "ot:tag", 
-"@xsi:type": "nex:LiteralMeta"
-}, 
-{
-"$": "ingroup added;", 
-"@property": "ot:tag", 
+"$": "Campanula", 
+"@property": "ot:focalCladeOTTTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ], 
@@ -81,6 +76,11 @@
 "$": "Campanula rotundifolia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula rotundifolia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -102,6 +102,11 @@
 {
 "$": "Jasione montana", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Jasione montana", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -125,6 +130,11 @@
 "$": "Campanula trachelium", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula trachelium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -146,6 +156,11 @@
 {
 "$": "Campanula secundiflora", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula secundiflora", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -169,6 +184,11 @@
 "$": "Campanula bononiensis", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula bononiensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -190,6 +210,11 @@
 {
 "$": "Campanula versicolor", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula versicolor", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -213,6 +238,11 @@
 "$": "Campanula spicata", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula spicata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -234,6 +264,11 @@
 {
 "$": "Campanula drabifolia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula drabifolia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -257,6 +292,11 @@
 "$": "Campanula fragilis subsp fragilis clone2", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula fragilis subsp. fragilis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -278,6 +318,11 @@
 {
 "$": "Campanula reatina", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula reatina", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -301,6 +346,11 @@
 "$": "Symphyandra hofmannii", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula hofmannii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -322,6 +372,11 @@
 {
 "$": "Phyteuma spicatum", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Phyteuma spicatum", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -345,6 +400,11 @@
 "$": "Physoplexis comosa", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Physoplexis comosa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -366,6 +426,11 @@
 {
 "$": "Campanula pyramidalis", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula pyramidalis", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -389,6 +454,11 @@
 "$": "Campanula pulla", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula pulla", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -410,6 +480,11 @@
 {
 "$": "Campanula fenestrellata subsp fenestrellata acc1", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula fenestrellata subsp. fenestrellata", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -433,6 +508,11 @@
 "$": "Phyteuma globulariifolium", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Phyteuma globulariifolium", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -454,6 +534,11 @@
 {
 "$": "Campanula marchesettii", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula marchesettii", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -477,6 +562,11 @@
 "$": "Campanula elatinoides", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula elatinoides", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -498,6 +588,11 @@
 {
 "$": "Campanula hawkinsiana", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula hawkinsiana", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -521,6 +616,11 @@
 "$": "Jasione crispa", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Jasione crispa", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -542,6 +642,11 @@
 {
 "$": "Edraianthus tenuifolius", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Edraianthus tenuifolius", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -565,6 +670,11 @@
 "$": "Campanula tommasiniana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula tommasiniana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -586,6 +696,11 @@
 {
 "$": "Campanula uniflora", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula uniflora", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -609,6 +724,11 @@
 "$": "Jasione perennis", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Jasione perennis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -630,6 +750,11 @@
 {
 "$": "Campanula thyrsoides", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula thyrsoides", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -653,6 +778,11 @@
 "$": "Campanula beckiana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula beckiana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -674,6 +804,11 @@
 {
 "$": "Campanula isophylla", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula isophylla", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -697,6 +832,11 @@
 "$": "Trachelium coeruleum acc1", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Trachelium caeruleum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -718,6 +858,11 @@
 {
 "$": "Campanula erinus", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula erinus", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -741,6 +886,11 @@
 "$": "Petromarula pinnata", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Petromarula pinnata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -762,6 +912,11 @@
 {
 "$": "Campanula stevenii", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula stevenii", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -785,6 +940,11 @@
 "$": "Legousia falcata", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Legousia falcata", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -806,6 +966,11 @@
 {
 "$": "Campanula fenestrellata subsp istriaca", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula fenestrellata subsp. istriaca", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -829,6 +994,11 @@
 "$": "Campanula fragilis subsp cavolinii", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula fragilis subsp. cavolinii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -850,6 +1020,11 @@
 {
 "$": "Adenophora liliifolia", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Adenophora liliifolia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -873,6 +1048,11 @@
 "$": "Campanula cenisia acc2", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula cenisia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -894,6 +1074,11 @@
 {
 "$": "Campanula cephallenica", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula cephallenica", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -917,6 +1102,11 @@
 "$": "Campanula alpina", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula alpina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -938,6 +1128,11 @@
 {
 "$": "Campanula hercegovina clone3", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula hercegovina", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -961,6 +1156,11 @@
 "$": "Campanula raineri", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula raineri", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -982,6 +1182,11 @@
 {
 "$": "Trachelium coeruleum acc2", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Trachelium caeruleum", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1005,6 +1210,11 @@
 "$": "Campanula herminii", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula herminii", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1026,6 +1236,11 @@
 {
 "$": "Campanula hercegovina clone1", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula hercegovina", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1049,6 +1264,11 @@
 "$": "Campanula lambertiana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula lambertiana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1070,6 +1290,11 @@
 {
 "$": "Campanula fragilis subsp fragilis clone3", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula fragilis subsp. fragilis", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1093,6 +1318,11 @@
 "$": "Campanula stenocodon", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula stenocodon", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1114,6 +1344,11 @@
 {
 "$": "Campanula garganica", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula garganica", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1137,6 +1372,11 @@
 "$": "Campanula persicifolia", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula persicifolia", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1158,6 +1398,11 @@
 {
 "$": "Asyneuma limonifolium", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Asyneuma limoniifolium", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1181,6 +1426,11 @@
 "$": "Campanula elatines", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula elatines", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1202,6 +1452,11 @@
 {
 "$": "Campanula fragilis subsp fragilis clone1", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula fragilis subsp. fragilis", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1225,6 +1480,11 @@
 "$": "Campanula arvatica", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula arvatica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1246,6 +1506,11 @@
 {
 "$": "Campanula dichotoma", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula dichotoma", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1269,6 +1534,11 @@
 "$": "Campanula hercegovina clone2", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula hercegovina", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1290,6 +1560,11 @@
 {
 "$": "Campanula scheuchzeri", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula scheuchzeri", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1313,6 +1588,11 @@
 "$": "Campanula waldsteiniana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula waldsteiniana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1334,6 +1614,11 @@
 {
 "$": "Campanula cespitosa", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula cespitosa", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1357,6 +1642,11 @@
 "$": "Campanula poscharskyana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula poscharskyana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1378,6 +1668,11 @@
 {
 "$": "Campanula acarnanica", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula acarnanica", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1401,6 +1696,11 @@
 "$": "Campanula portenschlagiana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula portenschlagiana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1422,6 +1722,11 @@
 {
 "$": "Campanula fenestrellata subsp fenestrellata acc2", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula fenestrellata subsp. fenestrellata", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1445,6 +1750,11 @@
 "$": "Campanula debarensis", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula debarensis", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1466,6 +1776,11 @@
 {
 "$": "Campanula zoysii", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula zoysii", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1489,6 +1804,11 @@
 "$": "Campanula carpatica", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula carpatica", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1510,6 +1830,11 @@
 {
 "$": "Asyneuma campanuloides", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Asyneuma campanuloides", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1533,6 +1858,11 @@
 "$": "Asyneuma japonicum", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Asyneuma japonicum", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1554,6 +1884,11 @@
 {
 "$": "Campanula cenisia acc1", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula cenisia", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -1577,6 +1912,11 @@
 "$": "Campanula morettiana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula morettiana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1599,6 +1939,11 @@
 "$": "Campanula justiniana", 
 "@property": "ot:originalLabel", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula justiniana", 
+"@property": "ot:ottTaxonName", 
+"@xsi:type": "nex:LiteralMeta"
 }
 ]
 }, 
@@ -1620,6 +1965,11 @@
 {
 "$": "Campanula lusitanica", 
 "@property": "ot:originalLabel", 
+"@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": "Campanula lusitanica", 
+"@property": "ot:ottTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
 }
 ]
@@ -2275,7 +2625,7 @@
 "node": [
 {
 "@id": "node989801", 
-"@root": "true"
+"@root": true
 }, 
 {
 "@id": "node989802"
@@ -2289,7 +2639,7 @@
 "@otu": "otu375063", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2302,7 +2652,7 @@
 "@otu": "otu375086", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2315,7 +2665,7 @@
 "@otu": "otu375082", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2337,7 +2687,7 @@
 "@otu": "otu375090", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2350,7 +2700,7 @@
 "@otu": "otu375103", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2369,7 +2719,7 @@
 "@otu": "otu375066", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2382,7 +2732,7 @@
 "@otu": "otu375064", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2401,7 +2751,7 @@
 "@otu": "otu375100", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2414,7 +2764,7 @@
 "@otu": "otu375072", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2430,7 +2780,7 @@
 "@otu": "otu375068", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2443,7 +2793,7 @@
 "@otu": "otu375087", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2456,7 +2806,7 @@
 "@otu": "otu375083", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2475,7 +2825,7 @@
 "@otu": "otu375069", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2488,7 +2838,7 @@
 "@otu": "otu375091", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2501,7 +2851,7 @@
 "@otu": "otu375115", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2517,7 +2867,7 @@
 "@otu": "otu375097", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2545,7 +2895,7 @@
 "@otu": "otu375092", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2564,7 +2914,7 @@
 "@otu": "otu375078", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2577,7 +2927,7 @@
 "@otu": "otu375073", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2590,7 +2940,7 @@
 "@otu": "otu375074", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2606,7 +2956,7 @@
 "@otu": "otu375127", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2622,7 +2972,7 @@
 "@otu": "otu375128", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2635,7 +2985,7 @@
 "@otu": "otu375111", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2648,7 +2998,7 @@
 "@otu": "otu375085", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2661,7 +3011,7 @@
 "@otu": "otu375094", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2677,7 +3027,7 @@
 "@otu": "otu375110", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2690,7 +3040,7 @@
 "@otu": "otu375093", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2712,7 +3062,7 @@
 "@otu": "otu375077", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2725,7 +3075,7 @@
 "@otu": "otu375123", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2738,7 +3088,7 @@
 "@otu": "otu375095", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2751,7 +3101,7 @@
 "@otu": "otu375124", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2773,7 +3123,7 @@
 "@otu": "otu375109", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2786,7 +3136,7 @@
 "@otu": "otu375121", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2799,7 +3149,7 @@
 "@otu": "otu375120", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2812,7 +3162,7 @@
 "@otu": "otu375071", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2825,7 +3175,7 @@
 "@otu": "otu375099", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2838,7 +3188,7 @@
 "@otu": "otu375122", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2860,7 +3210,7 @@
 "@otu": "otu375081", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2879,7 +3229,7 @@
 "@otu": "otu375130", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2892,7 +3242,7 @@
 "@otu": "otu375102", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2905,7 +3255,7 @@
 "@otu": "otu375125", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2924,7 +3274,7 @@
 "@otu": "otu375076", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2937,7 +3287,7 @@
 "@otu": "otu375126", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2956,7 +3306,7 @@
 "@otu": "otu375075", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2972,7 +3322,7 @@
 "@otu": "otu375067", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -2985,7 +3335,7 @@
 "@otu": "otu375065", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3001,7 +3351,7 @@
 "@otu": "otu375118", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3014,7 +3364,7 @@
 "@otu": "otu375084", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3033,7 +3383,7 @@
 "@otu": "otu375132", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3049,7 +3399,7 @@
 "@otu": "otu375112", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3062,7 +3412,7 @@
 "@otu": "otu375080", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3090,7 +3440,7 @@
 "@otu": "otu375079", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3103,7 +3453,7 @@
 "@otu": "otu375131", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3116,7 +3466,7 @@
 "@otu": "otu375117", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3129,7 +3479,7 @@
 "@otu": "otu375062", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3148,7 +3498,7 @@
 "@otu": "otu375105", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3161,7 +3511,7 @@
 "@otu": "otu375101", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3174,7 +3524,7 @@
 "@otu": "otu375116", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3187,7 +3537,7 @@
 "@otu": "otu375088", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3200,7 +3550,7 @@
 "@otu": "otu375108", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3216,7 +3566,7 @@
 "@otu": "otu375104", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3229,7 +3579,7 @@
 "@otu": "otu375119", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3242,7 +3592,7 @@
 "@otu": "otu375114", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3261,7 +3611,7 @@
 "@otu": "otu375113", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3274,7 +3624,7 @@
 "@otu": "otu375070", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3287,7 +3637,7 @@
 "@otu": "otu375096", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3300,7 +3650,7 @@
 "@otu": "otu375107", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3313,7 +3663,7 @@
 "@otu": "otu375089", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3329,7 +3679,7 @@
 "@otu": "otu375129", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3342,7 +3692,7 @@
 "@otu": "otu375098", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
@@ -3355,7 +3705,7 @@
 "@otu": "otu375106", 
 "meta": [
 {
-"$": "true", 
+"$": true, 
 "@datatype": "xsd:boolean", 
 "@property": "ot:isLeaf", 
 "@xsi:type": "nex:LiteralMeta"
