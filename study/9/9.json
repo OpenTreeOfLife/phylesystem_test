@@ -33,11 +33,6 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"@href": "http://dx.doi.org/10.1600/036364410791638306", 
-"@rel": "ot:studyPublication", 
-"@xsi:type": "nex:ResourceMeta"
-}, 
-{
 "@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S10149", 
 "@rel": "ot:dataDeposit", 
 "@xsi:type": "nex:ResourceMeta"
@@ -52,10 +47,9 @@
 "$": {
 "annotation": [
 {
-"@about": "#aefe28866e-b620-11e3-84d3-5891cf52fe1d", 
-"@dateCreated": "2014-03-28T02:30:57.052503", 
+"@about": "#peyotl-validator-event", 
 "@description": "Open Tree NexSON validation", 
-"@id": "aefe28866e-b620-11e3-84d3-5891cf52fe1d", 
+"@id": "peyotl-validator-event", 
 "@passedChecks": true, 
 "@preserve": false, 
 "@wasAssociatedWithAgentId": "peyotl-validator", 
@@ -65,20 +59,11 @@
 "@severity": "WARNING", 
 "data": [
 "ot:agents", 
-"ot:annotationEvents"
+"ot:annotationEvents", 
+"ot:testCount"
 ], 
 "refersTo": {
 "@idref": "study"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"@xsi:type"
-], 
-"refersTo": {
-"@idref": "tree1"
 }
 }, 
 {
@@ -89,16 +74,6 @@
 ], 
 "refersTo": {
 "@idref": "tree1"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"@xsi:type"
-], 
-"refersTo": {
-"@idref": "tree2"
 }
 }, 
 {
@@ -181,7 +156,12 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": 1, 
+"@href": "http://dx.doi.org/10.1600/036364410791638306", 
+"@rel": "ot:studyPublication", 
+"@xsi:type": "nex:ResourceMeta"
+}, 
+{
+"$": 2, 
 "@datatype": "xsd:int", 
 "@property": "ot:testCount", 
 "@xsi:type": "nex:LiteralMeta"
@@ -190,6 +170,7 @@
 "$": {
 "agent": [
 {
+"@about": "#peyotl-validator", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator", 
 "@name": "api.opentreeoflife.org/validate", 
