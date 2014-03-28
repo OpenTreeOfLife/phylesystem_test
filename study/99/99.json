@@ -38,7 +38,7 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 10, 
+"$": 11, 
 "@datatype": "xsd:int", 
 "@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
