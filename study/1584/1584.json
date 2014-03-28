@@ -52,6 +52,193 @@
 "$": "Asteraceae", 
 "@property": "ot:focalCladeOTTTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": {
+"agent": []
+}, 
+"@property": "ot:agents", 
+"@xsi:type": "nex:LiteralMeta", 
+"agent": [
+{
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "peyotl-validator", 
+"@name": "validate_ot_nexson.py", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.3a", 
+"invocation": {
+"checksPerformed": [
+"MISSING_MANDATORY_KEY", 
+"MISSING_OPTIONAL_KEY", 
+"UNRECOGNIZED_KEY", 
+"MISSING_LIST_EXPECTED", 
+"DUPLICATING_SINGLETON_KEY", 
+"REFERENCED_ID_NOT_FOUND", 
+"REPEATED_ID", 
+"REPEATED_OTU", 
+"MULTIPLE_ROOT_NODES", 
+"NO_ROOT_NODE", 
+"MULTIPLE_EDGES_FOR_NODES", 
+"CYCLE_DETECTED", 
+"DISCONNECTED_GRAPH_DETECTED", 
+"INCORRECT_ROOT_NODE_LABEL", 
+"TIP_WITHOUT_OTU", 
+"TIP_WITHOUT_OTT_ID", 
+"MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"NON_MONOPHYLETIC_TIPS_MAPPED_TO_OTT_ID", 
+"INVALID_PROPERTY_VALUE", 
+"PROPERTY_VALUE_NOT_USEFUL", 
+"UNRECOGNIZED_PROPERTY_VALUE", 
+"MULTIPLE_TREES", 
+"UNRECOGNIZED_TAG", 
+"CONFLICTING_PROPERTY_VALUES", 
+"NO_TREES", 
+"DEPRECATED_PROPERTY", 
+"UNPARSEABLE_META", 
+"UNREACHABLE_NODE", 
+"INCORRECT_VALUE_TYPE", 
+"MISSING_CRUCIAL_CONTENT"
+], 
+"commandLine": [
+"study/1584/1584.json", 
+"--embed", 
+"-o", 
+"o"
+], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.5+"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+{
+"$": {
+"annotation": []
+}, 
+"@property": "ot:annotationEvents", 
+"@xsi:type": "nex:LiteralMeta", 
+"annotation": [
+{
+"@dateCreated": "2014-03-28T01:01:45.463577", 
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "ae885cd96e-b614-11e3-a2ab-5891cf52fe1d", 
+"@passedChecks": true, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:ottId"
+], 
+"refersTo": {
+"@idref": "otu260950"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260866", 
+"otu260905", 
+"otu260924", 
+"otu260943"
+], 
+"refersTo": {
+"@idref": "otus1584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260867", 
+"otu260869", 
+"otu260896", 
+"otu260915", 
+"otu260931", 
+"otu260939", 
+"otu260945"
+], 
+"refersTo": {
+"@idref": "otus1584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260868", 
+"otu260873", 
+"otu260904", 
+"otu260948"
+], 
+"refersTo": {
+"@idref": "otus1584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260881", 
+"otu260891", 
+"otu260901", 
+"otu260926", 
+"otu260937"
+], 
+"refersTo": {
+"@idref": "otus1584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260887", 
+"otu260893", 
+"otu260895", 
+"otu260912", 
+"otu260934", 
+"otu260951"
+], 
+"refersTo": {
+"@idref": "otus1584"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3202"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3202"
+}
+}
+]
+}
+]
 }
 ], 
 "otus": {

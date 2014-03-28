@@ -47,6 +47,504 @@
 "$": "Canna", 
 "@property": "ot:focalCladeOTTTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": {
+"agent": []
+}, 
+"@property": "ot:agents", 
+"@xsi:type": "nex:LiteralMeta", 
+"agent": [
+{
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "peyotl-validator", 
+"@name": "validate_ot_nexson.py", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.3a", 
+"invocation": {
+"checksPerformed": [
+"MISSING_MANDATORY_KEY", 
+"MISSING_OPTIONAL_KEY", 
+"UNRECOGNIZED_KEY", 
+"MISSING_LIST_EXPECTED", 
+"DUPLICATING_SINGLETON_KEY", 
+"REFERENCED_ID_NOT_FOUND", 
+"REPEATED_ID", 
+"REPEATED_OTU", 
+"MULTIPLE_ROOT_NODES", 
+"NO_ROOT_NODE", 
+"MULTIPLE_EDGES_FOR_NODES", 
+"CYCLE_DETECTED", 
+"DISCONNECTED_GRAPH_DETECTED", 
+"INCORRECT_ROOT_NODE_LABEL", 
+"TIP_WITHOUT_OTU", 
+"TIP_WITHOUT_OTT_ID", 
+"MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"NON_MONOPHYLETIC_TIPS_MAPPED_TO_OTT_ID", 
+"INVALID_PROPERTY_VALUE", 
+"PROPERTY_VALUE_NOT_USEFUL", 
+"UNRECOGNIZED_PROPERTY_VALUE", 
+"MULTIPLE_TREES", 
+"UNRECOGNIZED_TAG", 
+"CONFLICTING_PROPERTY_VALUES", 
+"NO_TREES", 
+"DEPRECATED_PROPERTY", 
+"UNPARSEABLE_META", 
+"UNREACHABLE_NODE", 
+"INCORRECT_VALUE_TYPE", 
+"MISSING_CRUCIAL_CONTENT"
+], 
+"commandLine": [
+"study/584/584.json", 
+"--embed", 
+"-o", 
+"o"
+], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.5+"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+{
+"$": {
+"annotation": []
+}, 
+"@property": "ot:annotationEvents", 
+"@xsi:type": "nex:LiteralMeta", 
+"annotation": [
+{
+"@dateCreated": "2014-03-28T01:01:37.796819", 
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "ae83caf93a-b614-11e3-83f5-5891cf52fe1d", 
+"@passedChecks": true, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:ottId"
+], 
+"refersTo": {
+"@idref": "otu172793"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172771", 
+"otu172780", 
+"otu172781", 
+"otu172787", 
+"otu172791", 
+"otu172797", 
+"otu172807"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172772", 
+"otu172775", 
+"otu172785", 
+"otu172795", 
+"otu172799", 
+"otu172805"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172772", 
+"otu172775", 
+"otu172795", 
+"otu172799"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172772", 
+"otu172795", 
+"otu172805", 
+"otu172810", 
+"otu172812", 
+"otu172827", 
+"otu172834", 
+"otu172836", 
+"otu172856", 
+"otu172861", 
+"otu172866", 
+"otu172872", 
+"otu172883"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172774", 
+"otu172776", 
+"otu172778", 
+"otu172779", 
+"otu172790", 
+"otu172798"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172776", 
+"otu172778", 
+"otu172779", 
+"otu172798"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172776", 
+"otu172778", 
+"otu172790", 
+"otu172825", 
+"otu172832", 
+"otu172837", 
+"otu172839", 
+"otu172857", 
+"otu172863", 
+"otu172865", 
+"otu172868", 
+"otu172871"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172777", 
+"otu172782", 
+"otu172794", 
+"otu172800", 
+"otu172802"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172777", 
+"otu172782", 
+"otu172800", 
+"otu172811", 
+"otu172817", 
+"otu172821", 
+"otu172824", 
+"otu172826", 
+"otu172843", 
+"otu172845", 
+"otu172849", 
+"otu172853", 
+"otu172860", 
+"otu172885", 
+"otu172886"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172780", 
+"otu172781", 
+"otu172807", 
+"otu172894", 
+"otu172899"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172780", 
+"otu172787", 
+"otu172791", 
+"otu172807", 
+"otu172808", 
+"otu172809", 
+"otu172813", 
+"otu172818", 
+"otu172828", 
+"otu172831", 
+"otu172841", 
+"otu172846", 
+"otu172847", 
+"otu172848", 
+"otu172854", 
+"otu172855", 
+"otu172858", 
+"otu172859", 
+"otu172875", 
+"otu172876", 
+"otu172877", 
+"otu172878", 
+"otu172880", 
+"otu172881", 
+"otu172884"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172783", 
+"otu172803", 
+"otu172804"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172784", 
+"otu172796"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172788", 
+"otu172806"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172788", 
+"otu172838", 
+"otu172840", 
+"otu172850", 
+"otu172864"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172794", 
+"otu172890"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172806", 
+"otu172892"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172814", 
+"otu172822", 
+"otu172823", 
+"otu172874", 
+"otu172879"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172815", 
+"otu172829", 
+"otu172835", 
+"otu172842", 
+"otu172844", 
+"otu172851", 
+"otu172852", 
+"otu172869", 
+"otu172870", 
+"otu172873", 
+"otu172882"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172816", 
+"otu172819", 
+"otu172830", 
+"otu172862"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu172820", 
+"otu172833", 
+"otu172867"
+], 
+"refersTo": {
+"@idref": "otus584"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:studyPublication"
+], 
+"refersTo": {
+"@idref": "study"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree869"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree869"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree870"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree870"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree871"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree871"
+}
+}
+]
+}
+]
 }
 ], 
 "otus": {

@@ -52,6 +52,185 @@
 "$": "Mutisieae", 
 "@property": "ot:focalCladeOTTTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": {
+"agent": []
+}, 
+"@property": "ot:agents", 
+"@xsi:type": "nex:LiteralMeta", 
+"agent": [
+{
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "peyotl-validator", 
+"@name": "validate_ot_nexson.py", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.3a", 
+"invocation": {
+"checksPerformed": [
+"MISSING_MANDATORY_KEY", 
+"MISSING_OPTIONAL_KEY", 
+"UNRECOGNIZED_KEY", 
+"MISSING_LIST_EXPECTED", 
+"DUPLICATING_SINGLETON_KEY", 
+"REFERENCED_ID_NOT_FOUND", 
+"REPEATED_ID", 
+"REPEATED_OTU", 
+"MULTIPLE_ROOT_NODES", 
+"NO_ROOT_NODE", 
+"MULTIPLE_EDGES_FOR_NODES", 
+"CYCLE_DETECTED", 
+"DISCONNECTED_GRAPH_DETECTED", 
+"INCORRECT_ROOT_NODE_LABEL", 
+"TIP_WITHOUT_OTU", 
+"TIP_WITHOUT_OTT_ID", 
+"MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"NON_MONOPHYLETIC_TIPS_MAPPED_TO_OTT_ID", 
+"INVALID_PROPERTY_VALUE", 
+"PROPERTY_VALUE_NOT_USEFUL", 
+"UNRECOGNIZED_PROPERTY_VALUE", 
+"MULTIPLE_TREES", 
+"UNRECOGNIZED_TAG", 
+"CONFLICTING_PROPERTY_VALUES", 
+"NO_TREES", 
+"DEPRECATED_PROPERTY", 
+"UNPARSEABLE_META", 
+"UNREACHABLE_NODE", 
+"INCORRECT_VALUE_TYPE", 
+"MISSING_CRUCIAL_CONTENT"
+], 
+"commandLine": [
+"study/1573/1573.json", 
+"--embed", 
+"-o", 
+"o"
+], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.5+"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+{
+"$": {
+"annotation": []
+}, 
+"@property": "ot:annotationEvents", 
+"@xsi:type": "nex:LiteralMeta", 
+"annotation": [
+{
+"@dateCreated": "2014-03-28T01:01:43.310978", 
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "ae8714627a-b614-11e3-91ea-5891cf52fe1d", 
+"@passedChecks": true, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:ottId"
+], 
+"refersTo": {
+"@idref": [
+"otu259969", 
+"otu259970", 
+"otu259971", 
+"otu259972", 
+"otu259973", 
+"otu259974", 
+"otu259975", 
+"otu259979", 
+"otu259980", 
+"otu259984", 
+"otu259985", 
+"otu259987", 
+"otu259989", 
+"otu259993", 
+"otu259994", 
+"otu259995", 
+"otu259997", 
+"otu259998"
+]
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu259969", 
+"otu259970", 
+"otu259971", 
+"otu259972", 
+"otu259973", 
+"otu259974", 
+"otu259975", 
+"otu259979", 
+"otu259980", 
+"otu259984", 
+"otu259985", 
+"otu259987", 
+"otu259989", 
+"otu259993", 
+"otu259994", 
+"otu259995", 
+"otu259997", 
+"otu259998"
+], 
+"refersTo": {
+"@idref": "otus1573"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu259976", 
+"otu259977", 
+"otu259978", 
+"otu259981", 
+"otu259982", 
+"otu259988", 
+"otu259992", 
+"otu259999"
+], 
+"refersTo": {
+"@idref": "otus1573"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3144"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3144"
+}
+}
+]
+}
+]
 }
 ], 
 "otus": {

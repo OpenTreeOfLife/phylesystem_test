@@ -52,6 +52,1180 @@
 "$": "Asteraceae", 
 "@property": "ot:focalCladeOTTTaxonName", 
 "@xsi:type": "nex:LiteralMeta"
+}, 
+{
+"$": {
+"agent": []
+}, 
+"@property": "ot:agents", 
+"@xsi:type": "nex:LiteralMeta", 
+"agent": [
+{
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "peyotl-validator", 
+"@name": "validate_ot_nexson.py", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.3a", 
+"invocation": {
+"checksPerformed": [
+"MISSING_MANDATORY_KEY", 
+"MISSING_OPTIONAL_KEY", 
+"UNRECOGNIZED_KEY", 
+"MISSING_LIST_EXPECTED", 
+"DUPLICATING_SINGLETON_KEY", 
+"REFERENCED_ID_NOT_FOUND", 
+"REPEATED_ID", 
+"REPEATED_OTU", 
+"MULTIPLE_ROOT_NODES", 
+"NO_ROOT_NODE", 
+"MULTIPLE_EDGES_FOR_NODES", 
+"CYCLE_DETECTED", 
+"DISCONNECTED_GRAPH_DETECTED", 
+"INCORRECT_ROOT_NODE_LABEL", 
+"TIP_WITHOUT_OTU", 
+"TIP_WITHOUT_OTT_ID", 
+"MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"NON_MONOPHYLETIC_TIPS_MAPPED_TO_OTT_ID", 
+"INVALID_PROPERTY_VALUE", 
+"PROPERTY_VALUE_NOT_USEFUL", 
+"UNRECOGNIZED_PROPERTY_VALUE", 
+"MULTIPLE_TREES", 
+"UNRECOGNIZED_TAG", 
+"CONFLICTING_PROPERTY_VALUES", 
+"NO_TREES", 
+"DEPRECATED_PROPERTY", 
+"UNPARSEABLE_META", 
+"UNREACHABLE_NODE", 
+"INCORRECT_VALUE_TYPE", 
+"MISSING_CRUCIAL_CONTENT"
+], 
+"commandLine": [
+"study/1575/1575.json", 
+"--embed", 
+"-o", 
+"o"
+], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.5+"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+{
+"$": {
+"annotation": []
+}, 
+"@property": "ot:annotationEvents", 
+"@xsi:type": "nex:LiteralMeta", 
+"annotation": [
+{
+"@dateCreated": "2014-03-28T01:01:43.480197", 
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "ae872e262e-b614-11e3-9f3b-5891cf52fe1d", 
+"@passedChecks": true, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260034", 
+"otu260035", 
+"otu260036", 
+"otu260037", 
+"otu260039", 
+"otu260042", 
+"otu260045", 
+"otu260048", 
+"otu260058", 
+"otu260063", 
+"otu260068", 
+"otu260071", 
+"otu260074", 
+"otu260080", 
+"otu260081", 
+"otu260084", 
+"otu260094", 
+"otu260097", 
+"otu260098", 
+"otu260099", 
+"otu260102", 
+"otu260104"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260038", 
+"otu260046", 
+"otu260050", 
+"otu260057", 
+"otu260062", 
+"otu260072", 
+"otu260073", 
+"otu260076", 
+"otu260085"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260040", 
+"otu260092", 
+"otu260105"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260043", 
+"otu260055", 
+"otu260075", 
+"otu260079", 
+"otu260100"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260044", 
+"otu260070", 
+"otu260077", 
+"otu260088", 
+"otu260090", 
+"otu260093", 
+"otu260101"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260049", 
+"otu260052", 
+"otu260053", 
+"otu260056", 
+"otu260060", 
+"otu260064", 
+"otu260067", 
+"otu260078", 
+"otu260082", 
+"otu260086", 
+"otu260087", 
+"otu260091", 
+"otu260095", 
+"otu260103"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260051", 
+"otu260054"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260083", 
+"otu260089"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260106", 
+"otu260114"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260107", 
+"otu260111", 
+"otu260121", 
+"otu260125", 
+"otu260127", 
+"otu260134", 
+"otu260138", 
+"otu260139", 
+"otu260140", 
+"otu260145", 
+"otu260148", 
+"otu260150", 
+"otu260154", 
+"otu260158", 
+"otu260163", 
+"otu260166"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260108", 
+"otu260110", 
+"otu260117", 
+"otu260118", 
+"otu260119", 
+"otu260120", 
+"otu260122", 
+"otu260128", 
+"otu260146", 
+"otu260164"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260109", 
+"otu260126", 
+"otu260131", 
+"otu260135", 
+"otu260141", 
+"otu260143", 
+"otu260144", 
+"otu260167", 
+"otu260168"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260112", 
+"otu260136", 
+"otu260151"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260129", 
+"otu260137", 
+"otu260147", 
+"otu260152", 
+"otu260153", 
+"otu260157", 
+"otu260160", 
+"otu260165", 
+"otu260169"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260130", 
+"otu260155"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260142", 
+"otu260149", 
+"otu260156", 
+"otu260159", 
+"otu260161"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260170", 
+"otu260203", 
+"otu260227", 
+"otu260249", 
+"otu260268", 
+"otu260290", 
+"otu260295", 
+"otu260348", 
+"otu260353", 
+"otu260362", 
+"otu260368", 
+"otu260369", 
+"otu260385", 
+"otu260411", 
+"otu260426", 
+"otu260440", 
+"otu260452", 
+"otu260454"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260171", 
+"otu260194", 
+"otu260264", 
+"otu260292", 
+"otu260301", 
+"otu260318", 
+"otu260322", 
+"otu260329", 
+"otu260352", 
+"otu260366", 
+"otu260399", 
+"otu260403", 
+"otu260451", 
+"otu260458", 
+"otu260468"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260172", 
+"otu260273", 
+"otu260339", 
+"otu260356", 
+"otu260360"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260173", 
+"otu260186", 
+"otu260187", 
+"otu260190", 
+"otu260195", 
+"otu260197", 
+"otu260204", 
+"otu260209", 
+"otu260210", 
+"otu260212", 
+"otu260217", 
+"otu260219", 
+"otu260226", 
+"otu260228", 
+"otu260232", 
+"otu260234", 
+"otu260236", 
+"otu260239", 
+"otu260244", 
+"otu260246", 
+"otu260254", 
+"otu260255", 
+"otu260256", 
+"otu260257", 
+"otu260275", 
+"otu260281", 
+"otu260289", 
+"otu260297", 
+"otu260306", 
+"otu260309", 
+"otu260313", 
+"otu260314", 
+"otu260319", 
+"otu260320", 
+"otu260321", 
+"otu260331", 
+"otu260332", 
+"otu260338", 
+"otu260343", 
+"otu260344", 
+"otu260346", 
+"otu260347", 
+"otu260355", 
+"otu260357", 
+"otu260358", 
+"otu260359", 
+"otu260364", 
+"otu260365", 
+"otu260367", 
+"otu260373", 
+"otu260380", 
+"otu260387", 
+"otu260388", 
+"otu260389", 
+"otu260390", 
+"otu260394", 
+"otu260396", 
+"otu260397", 
+"otu260398", 
+"otu260408", 
+"otu260410", 
+"otu260412", 
+"otu260414", 
+"otu260418", 
+"otu260421", 
+"otu260423", 
+"otu260424", 
+"otu260425", 
+"otu260430", 
+"otu260436", 
+"otu260437", 
+"otu260441", 
+"otu260444", 
+"otu260446", 
+"otu260453", 
+"otu260460", 
+"otu260464"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260174", 
+"otu260184", 
+"otu260199", 
+"otu260208", 
+"otu260220", 
+"otu260222", 
+"otu260231", 
+"otu260240", 
+"otu260245", 
+"otu260296", 
+"otu260299", 
+"otu260307", 
+"otu260308", 
+"otu260312", 
+"otu260337", 
+"otu260349", 
+"otu260372", 
+"otu260379", 
+"otu260384", 
+"otu260386", 
+"otu260395", 
+"otu260404", 
+"otu260413", 
+"otu260439", 
+"otu260462"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260175", 
+"otu260178", 
+"otu260180", 
+"otu260183", 
+"otu260188", 
+"otu260200", 
+"otu260225", 
+"otu260229", 
+"otu260252", 
+"otu260258", 
+"otu260279", 
+"otu260323", 
+"otu260361", 
+"otu260391", 
+"otu260415", 
+"otu260419", 
+"otu260438"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260176", 
+"otu260189", 
+"otu260191", 
+"otu260196", 
+"otu260198", 
+"otu260201", 
+"otu260202", 
+"otu260211", 
+"otu260221", 
+"otu260238", 
+"otu260242", 
+"otu260243", 
+"otu260247", 
+"otu260248", 
+"otu260250", 
+"otu260251", 
+"otu260260", 
+"otu260261", 
+"otu260262", 
+"otu260265", 
+"otu260267", 
+"otu260269", 
+"otu260272", 
+"otu260274", 
+"otu260277", 
+"otu260280", 
+"otu260284", 
+"otu260293", 
+"otu260294", 
+"otu260298", 
+"otu260304", 
+"otu260311", 
+"otu260316", 
+"otu260317", 
+"otu260324", 
+"otu260327", 
+"otu260330", 
+"otu260333", 
+"otu260336", 
+"otu260340", 
+"otu260341", 
+"otu260342", 
+"otu260354", 
+"otu260371", 
+"otu260375", 
+"otu260377", 
+"otu260378", 
+"otu260382", 
+"otu260393", 
+"otu260401", 
+"otu260405", 
+"otu260406", 
+"otu260407", 
+"otu260416", 
+"otu260422", 
+"otu260431", 
+"otu260445", 
+"otu260456", 
+"otu260463"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260177", 
+"otu260181", 
+"otu260182", 
+"otu260185", 
+"otu260207", 
+"otu260214", 
+"otu260215", 
+"otu260216", 
+"otu260218", 
+"otu260223", 
+"otu260233", 
+"otu260237", 
+"otu260271", 
+"otu260276", 
+"otu260285", 
+"otu260286", 
+"otu260288", 
+"otu260302", 
+"otu260303", 
+"otu260325", 
+"otu260350", 
+"otu260351", 
+"otu260376", 
+"otu260402", 
+"otu260427", 
+"otu260433", 
+"otu260434", 
+"otu260449", 
+"otu260455", 
+"otu260459", 
+"otu260466"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260179", 
+"otu260206", 
+"otu260213", 
+"otu260230", 
+"otu260253", 
+"otu260287", 
+"otu260300", 
+"otu260334", 
+"otu260381", 
+"otu260400", 
+"otu260428", 
+"otu260432", 
+"otu260442", 
+"otu260443", 
+"otu260447", 
+"otu260450", 
+"otu260461"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260192", 
+"otu260235", 
+"otu260291", 
+"otu260335", 
+"otu260374", 
+"otu260420"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260193", 
+"otu260205", 
+"otu260266", 
+"otu260278", 
+"otu260345", 
+"otu260383", 
+"otu260392", 
+"otu260435", 
+"otu260448", 
+"otu260467"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260224", 
+"otu260241", 
+"otu260283", 
+"otu260305", 
+"otu260310", 
+"otu260315"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260259", 
+"otu260429", 
+"otu260465"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260263", 
+"otu260409"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260270", 
+"otu260370"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu260282", 
+"otu260326", 
+"otu260328", 
+"otu260363", 
+"otu260417", 
+"otu260457"
+], 
+"refersTo": {
+"@idref": "otus1575"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3147"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit", 
+"ot:inGroupClade"
+], 
+"refersTo": {
+"@idref": "tree3147"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3148"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3148"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3149"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3149"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3150"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3150"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3151"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3151"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3152"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3152"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3153"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3153"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3154"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit", 
+"ot:inGroupClade"
+], 
+"refersTo": {
+"@idref": "tree3154"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3155"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3155"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3156"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit", 
+"ot:inGroupClade"
+], 
+"refersTo": {
+"@idref": "tree3156"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3157"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3157"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3158"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit", 
+"ot:inGroupClade"
+], 
+"refersTo": {
+"@idref": "tree3158"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3159"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3159"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3160"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3160"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3161"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3161"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3162"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3162"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3163"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3163"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"@xsi:type"
+], 
+"refersTo": {
+"@idref": "tree3164"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree3164"
+}
+}
+]
+}
+]
 }
 ], 
 "otus": {
