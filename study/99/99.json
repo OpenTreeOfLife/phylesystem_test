@@ -37,7 +37,7 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 2, 
+"$": 3, 
 "@datatype": "xsd:int", 
 "@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
@@ -52,66 +52,37 @@
 "$": {
 "annotation": [
 {
-"@about": "#aef8d810b2-b620-11e3-9918-5891cf52fe1d", 
-"@dateCreated": "2014-03-28T02:30:48.136919", 
+"@about": "#peyotl-validator-event", 
 "@description": "Open Tree NexSON validation", 
-"@id": "aef8d810b2-b620-11e3-9918-5891cf52fe1d", 
-"@passedChecks": true, 
+"@id": "peyotl-validator-event", 
+"@passedChecks": false, 
 "@preserve": false, 
 "@wasAssociatedWithAgentId": "peyotl-validator", 
 "message": [
 {
-"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
-"@severity": "WARNING", 
+"@code": "INCORRECT_VALUE_TYPE", 
+"@severity": "ERROR", 
 "data": [
-"otu377605", 
-"otu377628"
-], 
-"refersTo": {
-"@idref": "otus99"
-}
-}, 
 {
-"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
-"@severity": "WARNING", 
-"data": [
-"otu377607", 
-"otu377611"
+"expected": "array", 
+"key": "tree", 
+"type": "dict"
+}
 ], 
 "refersTo": {
-"@idref": "otus99"
+"@idref": "trees99"
 }
 }, 
 {
 "@code": "UNRECOGNIZED_KEY", 
 "@severity": "WARNING", 
 "data": [
+"acount", 
 "ot:agents", 
 "ot:annotationEvents"
 ], 
 "refersTo": {
 "@idref": "study"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"@xsi:type"
-], 
-"refersTo": {
-"@idref": "tree5885"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"ot:branchLengthMode", 
-"ot:branchLengthTimeUnit"
-], 
-"refersTo": {
-"@idref": "tree5885"
 }
 }
 ]
@@ -188,6 +159,7 @@
 "$": {
 "agent": [
 {
+"@about": "#peyotl-validator", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator", 
 "@name": "api.opentreeoflife.org/validate", 
