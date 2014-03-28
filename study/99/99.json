@@ -1,5 +1,5 @@
 {
-"^zcount": 4, 
+"^zcount": 5, 
 "nexml": {
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
@@ -84,6 +84,16 @@
 ], 
 "refersTo": {
 "@idref": "study"
+}
+}, 
+{
+"@code": "UNRECOGNIZED_KEY", 
+"@severity": "WARNING", 
+"data": [
+"^zcount"
+], 
+"refersTo": {
+"@top": ""
 }
 }
 ]
