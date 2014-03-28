@@ -47,6 +47,7 @@
 "$": {
 "annotation": [
 {
+"@about": "#peyotl-validator-event", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator-event", 
 "@passedChecks": true, 
@@ -84,53 +85,32 @@
 "@xsi:type": "nex:LiteralMeta", 
 "annotation": [
 {
-"@about": "#ae4301a106-b614-11e3-9216-5891cf52fe1d", 
-"@dateCreated": "2014-03-28T00:59:49.102958", 
-"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
-"@id": "ae4301a106-b614-11e3-9216-5891cf52fe1d", 
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator-event", 
 "@passedChecks": true, 
 "@preserve": false, 
 "@wasAssociatedWithAgentId": "peyotl-validator", 
 "message": [
 {
+"@code": "UNRECOGNIZED_KEY", 
+"@severity": "WARNING", 
+"data": [
+"^ot:agents", 
+"^ot:annotationEvents", 
+"^ot:testCount"
+], 
+"refersTo": {
+"@idref": "study"
+}
+}, 
+{
 "@code": "MISSING_OPTIONAL_KEY", 
 "@severity": "WARNING", 
 "data": [
-"@xsi:type"
+"^ot:branchLengthTimeUnit"
 ], 
 "refersTo": {
 "@idref": "tree1"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"ot:branchLengthTimeUnit"
-], 
-"refersTo": {
-"@idref": "tree1"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"@xsi:type"
-], 
-"refersTo": {
-"@idref": "tree2"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"ot:branchLengthTimeUnit", 
-"ot:inGroupClade"
-], 
-"refersTo": {
-"@idref": "tree2"
 }
 }
 ]
@@ -149,7 +129,7 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 3, 
+"$": 4, 
 "@datatype": "xsd:int", 
 "@property": "ot:testCount", 
 "@xsi:type": "nex:LiteralMeta"
