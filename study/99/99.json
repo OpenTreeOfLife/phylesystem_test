@@ -1,5 +1,5 @@
 {
-"^zcount": 12, 
+"^zcount": 13, 
 "nexml": {
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
@@ -50,7 +50,8 @@
 "@xsi:type": "nex:LiteralMeta"
 }, 
 {
-"$": {
+"@property": "ot:annotationEvents", 
+"@xsi:type": "nex:LiteralMeta", 
 "annotation": [
 {
 "@description": "Open Tree NexSON validation", 
@@ -90,66 +91,6 @@
 ], 
 "refersTo": {
 "@top": ""
-}
-}
-]
-}
-]
-}, 
-"@datatype": "xsd:string", 
-"@property": "ot:annotationEvents", 
-"@xsi:type": "nex:LiteralMeta", 
-"annotation": [
-{
-"@about": "#ae44ba8918-b614-11e3-a750-5891cf52fe1d", 
-"@dateCreated": "2014-03-28T00:59:51.992497", 
-"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
-"@id": "ae44ba8918-b614-11e3-a750-5891cf52fe1d", 
-"@passedChecks": true, 
-"@preserve": false, 
-"@wasAssociatedWithAgentId": "peyotl-validator", 
-"message": [
-{
-"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
-"@severity": "WARNING", 
-"data": [
-"otu377605", 
-"otu377628"
-], 
-"refersTo": {
-"@idref": "otus99"
-}
-}, 
-{
-"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
-"@severity": "WARNING", 
-"data": [
-"otu377607", 
-"otu377611"
-], 
-"refersTo": {
-"@idref": "otus99"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"@xsi:type"
-], 
-"refersTo": {
-"@idref": "tree5885"
-}
-}, 
-{
-"@code": "MISSING_OPTIONAL_KEY", 
-"@severity": "WARNING", 
-"data": [
-"ot:branchLengthMode", 
-"ot:branchLengthTimeUnit"
-], 
-"refersTo": {
-"@idref": "tree5885"
 }
 }
 ]
