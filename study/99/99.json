@@ -1,4 +1,5 @@
 {
+"^zcount": 1, 
 "nexml": {
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
