@@ -85,6 +85,7 @@
 "@xsi:type": "nex:LiteralMeta", 
 "annotation": [
 {
+"@about": "#peyotl-validator-event", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator-event", 
 "@passedChecks": true, 
@@ -95,22 +96,40 @@
 "@code": "UNRECOGNIZED_KEY", 
 "@severity": "WARNING", 
 "data": [
-"^ot:agents", 
-"^ot:annotationEvents", 
-"^ot:testCount"
+"ot:agents", 
+"ot:annotationEvents", 
+"ot:testCount"
 ], 
 "refersTo": {
-"@idref": "study"
+"@idref": "study", 
+"@top": "nexml"
 }
 }, 
 {
 "@code": "MISSING_OPTIONAL_KEY", 
 "@severity": "WARNING", 
 "data": [
-"^ot:branchLengthTimeUnit"
+"ot:branchLengthTimeUnit"
 ], 
 "refersTo": {
-"@idref": "tree1"
+"@idref": "tree1", 
+"@top": "trees", 
+"@treeID": "tree1", 
+"@treesID": "tree1"
+}
+}, 
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"ot:branchLengthTimeUnit", 
+"ot:inGroupClade"
+], 
+"refersTo": {
+"@idref": "tree2", 
+"@top": "trees", 
+"@treeID": "tree2", 
+"@treesID": "tree2"
 }
 }
 ]
@@ -129,7 +148,7 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 9, 
+"$": 10, 
 "@datatype": "xsd:int", 
 "@property": "ot:testCount", 
 "@xsi:type": "nex:LiteralMeta"
