@@ -1,5 +1,5 @@
 {
-"^zcount": 28, 
+"^zcount": 29, 
 "nexml": {
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
@@ -54,6 +54,7 @@
 "@xsi:type": "nex:LiteralMeta", 
 "annotation": [
 {
+"@about": "#peyotl-validator-event", 
 "@description": "Open Tree NexSON validation", 
 "@id": "peyotl-validator-event", 
 "@passedChecks": true, 
@@ -61,26 +62,56 @@
 "@wasAssociatedWithAgentId": "peyotl-validator", 
 "message": [
 {
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu377605", 
+"otu377628"
+], 
+"refersTo": {
+"@idref": "otus99", 
+"@otusID": "otus99", 
+"@top": "otus"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu377607", 
+"otu377611"
+], 
+"refersTo": {
+"@idref": "otus99", 
+"@otusID": "otus99", 
+"@top": "otus"
+}
+}, 
+{
 "@code": "UNRECOGNIZED_KEY", 
 "@severity": "WARNING", 
 "data": [
-"^acount", 
-"^ot:agents", 
-"^ot:annotationEvents"
+"acount", 
+"ot:agents", 
+"ot:annotationEvents"
 ], 
 "refersTo": {
-"@idref": "study"
+"@idref": "study", 
+"@top": "nexml"
 }
 }, 
 {
 "@code": "MISSING_OPTIONAL_KEY", 
 "@severity": "WARNING", 
 "data": [
-"^ot:branchLengthMode", 
-"^ot:branchLengthTimeUnit"
+"ot:branchLengthMode", 
+"ot:branchLengthTimeUnit"
 ], 
 "refersTo": {
-"@idref": "tree5885"
+"@idref": "tree5885", 
+"@top": "trees", 
+"@treeID": "tree5885", 
+"@treesID": "tree5885"
 }
 }, 
 {
