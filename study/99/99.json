@@ -1,5 +1,5 @@
 {
-"^zcount": 54, 
+"^zcount": 55, 
 "nexml": {
 "@about": "#study", 
 "@generator": "Phylografter nexml-json exporter", 
@@ -38,7 +38,7 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 14, 
+"$": 12, 
 "@datatype": "xsd:int", 
 "@property": "acount", 
 "@xsi:type": "nex:LiteralMeta"
