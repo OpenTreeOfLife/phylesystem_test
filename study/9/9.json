@@ -148,7 +148,7 @@
 "@xsi:type": "nex:ResourceMeta"
 }, 
 {
-"$": 17, 
+"$": 18, 
 "@datatype": "xsd:int", 
 "@property": "ot:testCount", 
 "@xsi:type": "nex:LiteralMeta"
